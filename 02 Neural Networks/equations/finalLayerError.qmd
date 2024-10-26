@@ -1,0 +1,1 @@
+$$\delta_j = \left( a_j - y_j \right) \cdot a_j \cdot \left( 1 - a_j \right)$$

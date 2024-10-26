@@ -1,0 +1,155 @@
+[
+  {
+    "objectID": "02 Neural Networks/04 Backpropagation.html",
+    "href": "02 Neural Networks/04 Backpropagation.html",
+    "title": "Backpropagation",
+    "section": "",
+    "text": "Background for the following:\n\ncapital letters are used for matrices while lowercase are used for individual nodes."
+  },
+  {
+    "objectID": "02 Neural Networks/04 Backpropagation.html#a-note-on-notations",
+    "href": "02 Neural Networks/04 Backpropagation.html#a-note-on-notations",
+    "title": "Backpropagation",
+    "section": "",
+    "text": "Background for the following:\n\ncapital letters are used for matrices while lowercase are used for individual nodes."
+  },
+  {
+    "objectID": "02 Neural Networks/04 Backpropagation.html#equation-1---final-layer-error",
+    "href": "02 Neural Networks/04 Backpropagation.html#equation-1---final-layer-error",
+    "title": "Backpropagation",
+    "section": "Equation 1 - Final Layer Error",
+    "text": "Equation 1 - Final Layer Error\nThe error at an individual node in the final layer of the network can be found using the equation:\n\\[\\delta_j = \\left( a_j - y_j \\right) \\cdot a_j \\cdot \\left( 1 - a_j \\right)\\]\nTo represent the error at every node in the final layer, we can use matrices.\n\\[\\Delta = \\left( A - Y \\right) \\odot A \\odot ( 1 - A )\\]\nwhere \\(1\\) represents a matrix of \\(1\\)s with equal dimensions as \\(A\\)."
+  },
+  {
+    "objectID": "02 Neural Networks/04 Backpropagation.html#equation-2---intermediate-layer-error",
+    "href": "02 Neural Networks/04 Backpropagation.html#equation-2---intermediate-layer-error",
+    "title": "Backpropagation",
+    "section": "Equation 2 - Intermediate Layer Error",
+    "text": "Equation 2 - Intermediate Layer Error\nThe error at an individual node in an intermediate layer \\(l\\) in terms of the next layer \\(l+1\\) can be found using the equation:\n\\[\\delta_j^l = \\left( \\displaystyle\\sum_{k} w_{kj}^{l+1} \\delta_k^{l+1} \\right) \\cdot a_j^l \\cdot \\left(1 - a_j^l \\right)\\]\nTo represent the error at every node in the intermediate layer \\(l\\), use can use matrices.\n\\[\\Delta^l = \\left( \\left( W^{l+1} \\right)^T \\cdot \\Delta^{l+1} \\right) \\odot A^l \\odot \\left(1 - A^l \\right)\\]\nwhere \\(1\\) represents a matrix of \\(1\\)s with equal dimensions as \\(A\\)."
+  },
+  {
+    "objectID": "02 Neural Networks/04 Backpropagation.html#equation-3---the-bias-gradient",
+    "href": "02 Neural Networks/04 Backpropagation.html#equation-3---the-bias-gradient",
+    "title": "Backpropagation",
+    "section": "Equation 3 - The Bias Gradient",
+    "text": "Equation 3 - The Bias Gradient\nWe refer to the rate of change of the cost with respect to the bias this as the bias gradient.\nMathematically, that is the partial derivative of our cost function with respect to our biases, or \\(\\dfrac{\\partial C}{\\partial b}\\).\nTo represent the value of the bias gradient with respect to a given node, we will use \\(\\nabla b_j\\).\nThe result is that the the bias gradient is just the error found at an individual node.\n\\[\\nabla b_j = \\delta_j\\]\n\nConsequence for Final Layer\nThis means that for any node in the final layer, we have\n\\[\\nabla b_j = (a_j - y_j) \\cdot (a_j) \\cdot (1 - a_j)\\]\nOr as a matrices\n\\[\\nabla B = (A - Y) \\odot A \\odot (1 - A)\\]\n\n\nConsequence for Intermediate Layers\nAlso for any node in an intermediate layer \\(l\\) we have\n\\[\\nabla b_j^l = \\]\nAs matrices,\n\\[\\nabla B =\\]"
+  },
+  {
+    "objectID": "02 Neural Networks/04 Backpropagation.html#equation-4---the-weight-gradient",
+    "href": "02 Neural Networks/04 Backpropagation.html#equation-4---the-weight-gradient",
+    "title": "Backpropagation",
+    "section": "Equation 4 - The Weight Gradient",
+    "text": "Equation 4 - The Weight Gradient"
+  },
+  {
+    "objectID": "02 Neural Networks/equations/finalLayerErrorMatrix.html",
+    "href": "02 Neural Networks/equations/finalLayerErrorMatrix.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "\\[\\Delta = \\left( A - Y \\right) \\odot A \\odot ( 1 - A )\\]"
+  },
+  {
+    "objectID": "99 Assignments/03 Othello.html#overview",
+    "href": "99 Assignments/03 Othello.html#overview",
+    "title": "An Intelligent Othello Player",
+    "section": "Overview",
+    "text": "Overview\nThis assignment will give you experience implementing a classical two player game, Othello, along with an AI opponent driven by the mini-max heuristic search algorithm.\nThe assignment can be broken down into two relatively separate tasks:\n\nImplement the mechanics of the game Othello. This includes representing the board, initilizing play, accepting player moves (including rejecting illegal moves), computing the discs that should be flipped, displaying the board after each move (ASCII graphics are acceptable), score keeping, and recognition of when the game is complete.\nImplement the Mini-Max algorithm, with alphabeta pruning and a reasonable heuristic.\n\nLanguage of implemention is up to you. Python is a reasonable choice.",
+    "crumbs": [
+      "Assignments",
+      "Othello"
+    ]
+  },
+  {
+    "objectID": "99 Assignments/03 Othello.html#requirements-and-rubric",
+    "href": "99 Assignments/03 Othello.html#requirements-and-rubric",
+    "title": "An Intelligent Othello Player",
+    "section": "Requirements and Rubric",
+    "text": "Requirements and Rubric\nThis assignment provides the opportunity for 110 out of 100 points (10 bonus points).\n\n[10 pts] Your program is appropriately commented. Be sure to place comments/documentation in every class and function. This includes a readme.md file or a comment block at the beginning of your main program with your name, the date, and a full description of the game. If you plan to put this in your Github portfolio, I suggest a readme.me file.\n[40 pts] Your program implements the rules of the Othello game accurately. In other words, two humans can use your program to successfully play Othello.\n[20 pts] Your program properly implements the Mini-Max algorithm. To demonstrate that mini-max is implemented properly, you should have a debug mode that can be switched on, on a move by move basis. The debug mode should show all the sequences of moves considered from the current state along with the heuristic value associated with each move sequence. By default, the debug mode should be OFF.\nAdditionally, search depth should be easily adjustable, and your program should display the total number of game states examined prior to making a move. Your program should also support computer playing either white or black, that is, if the player wants to have the computer make a move for them, they can choose to do so.\n[20 pts] Your program properly implements alpha-beta pruning. You will provide the ability to easily switch on/off alpha-beta pruning on a move by move basis. You should be able to demonstrate that alpha=beta pruning is operating properly by observing the total number of game states when it is enabled versus when it is disabled.\n[10 pts] Awarded if your program is able to beat a human that is really trying to win. This will be demonstrated by a recorded program trace of an entire game.",
+    "crumbs": [
+      "Assignments",
+      "Othello"
+    ]
+  },
+  {
+    "objectID": "99 Assignments/03 Othello.html#statement-on-academic-integrity",
+    "href": "99 Assignments/03 Othello.html#statement-on-academic-integrity",
+    "title": "An Intelligent Othello Player",
+    "section": "Statement on Academic Integrity",
+    "text": "Statement on Academic Integrity\nThis is an independent assignment. Sharing of code or use of an LLM to generate code is not allowed. You may, however, look for information concerning implementation and understanding of constructs within the language you are using to help with implementation.\nAs an example you might search with the phrase “How do I create arrays in javascript?” or ask an LLM “Can you give me examples of using arrays in JavaScript,” but not “Give me a function that implements ________ in Javascript.” The code you write must be your code. Anytime you search for information, be sure to cite it in the comments or within a file called “worklog”.",
+    "crumbs": [
+      "Assignments",
+      "Othello"
+    ]
+  },
+  {
+    "objectID": "99 Assignments/03 Othello.html#submitting-the-assignment",
+    "href": "99 Assignments/03 Othello.html#submitting-the-assignment",
+    "title": "An Intelligent Othello Player",
+    "section": "Submitting the Assignment",
+    "text": "Submitting the Assignment\nThe assignment will be submitted through gradescope. If you’re using GitHub, keep in mind that gradescope does allow you to submit a repository.",
+    "crumbs": [
+      "Assignments",
+      "Othello"
+    ]
+  },
+  {
+    "objectID": "99 Assignments/03 Othello.html#grading-the-assignment",
+    "href": "99 Assignments/03 Othello.html#grading-the-assignment",
+    "title": "An Intelligent Othello Player",
+    "section": "Grading the Assignment",
+    "text": "Grading the Assignment\nThe assignment will be graded through a code interview with your professor.",
+    "crumbs": [
+      "Assignments",
+      "Othello"
+    ]
+  },
+  {
+    "objectID": "99 Assignments/03 Othello.html#the-othello-rule-book",
+    "href": "99 Assignments/03 Othello.html#the-othello-rule-book",
+    "title": "An Intelligent Othello Player",
+    "section": "The Othello Rule Book",
+    "text": "The Othello Rule Book",
+    "crumbs": [
+      "Assignments",
+      "Othello"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "CSC 475 AI\nAssignments:\n\nOthello",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "02 Neural Networks/00 index.html",
+    "href": "02 Neural Networks/00 index.html",
+    "title": "Outline",
+    "section": "",
+    "text": "Outline"
+  },
+  {
+    "objectID": "02 Neural Networks/equations/finalLayerError.html",
+    "href": "02 Neural Networks/equations/finalLayerError.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "\\[\\delta_j = \\left( a_j - y_j \\right) \\cdot a_j \\cdot \\left( 1 - a_j \\right)\\]"
+  },
+  {
+    "objectID": "02 Neural Networks/03 Hadamard Product.html",
+    "href": "02 Neural Networks/03 Hadamard Product.html",
+    "title": "Hadamard Product",
+    "section": "",
+    "text": "Let \\(A\\) and \\(B\\) be two matrices of equal size. Then the Hadamard Product is the componentwise product of every \\(a_{ij}\\) and \\(b_{ij}\\)\n\nExample"
+  },
+  {
+    "objectID": "03 Searching/01 A Game as a Search Space.html",
+    "href": "03 Searching/01 A Game as a Search Space.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "G\n\n\n\nA\n\nA\n\n\n\nB\n\nB\n\n\n\nA-&gt;B\n\n\n\n\n\nC\n\nC\n\n\n\nA-&gt;C\n\n\n\n\n\nD\n\nD\n\n\n\nA-&gt;D\n\n\n\n\n\nE\n\nE\n\n\n\nB-&gt;E\n\n\n\n\n\nF\n\nF\n\n\n\nB-&gt;F\n\n\n\n\n\nC-&gt;D\n\n\n\n\n\nG\n\nG\n\n\n\nC-&gt;G\n\n\n\n\n\nH\n\nH\n\n\n\nD-&gt;H\n\n\n\n\n\nI\n\nI\n\n\n\nD-&gt;I\n\n\n\n\n\nJ\n\nJ\n\n\n\nG-&gt;J\n\n\n\n\n\nM\n\nM\n\n\n\nJ-&gt;M\n\n\n\n\n\nK\n\nK\n\n\n\nI-&gt;K\n\n\n\n\n\nL\n\nL\n\n\n\nI-&gt;L\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A((A))--&gt;B((B))\n    A--&gt;C((C))\n    A--&gt;D((D))\n    B--&gt;E((E))\n    B--&gt;F((F))\n    C--&gt;G((G))\n    C--&gt;D\n    D--&gt;H((H))\n    D--&gt;I((I))\n    G--&gt;J((J))\n    J--&gt;M((M))\n    I--&gt;K((K))\n    I--&gt;L((L))\n\n    classDef commonStyle fill:#f9f,stroke:#333,stroke-width:2px;\n    class A,B commonStyle;"
+  }
+]

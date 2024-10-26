@@ -1,0 +1,40 @@
+
+
+```{dot}
+digraph G {
+  node [shape=circle]
+  A -> B;
+  A -> C;
+  A -> D;
+  B -> E [side=L];
+  B -> F [side=R]; 
+  C -> G;
+  C -> D;
+  G -> J;
+  J -> M;
+  D -> H;
+  D -> I;
+  I -> K;
+  I -> L;
+}
+```
+
+```{mermaid}
+graph TB
+    A((A))-->B((B))
+    A-->C((C))
+    A-->D((D))
+    B-->E((E))
+    B-->F((F))
+    C-->G((G))
+    C-->D
+    D-->H((H))
+    D-->I((I))
+    G-->J((J))
+    J-->M((M))
+    I-->K((K))
+    I-->L((L))
+
+    classDef commonStyle fill:#f9f,stroke:#333,stroke-width:2px;
+    class A,B commonStyle;
+```

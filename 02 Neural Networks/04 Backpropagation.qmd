@@ -1,0 +1,78 @@
+---
+title: "Backpropagation"
+---
+
+
+## A note on notations
+Background for the following:
+
+- capital letters are used for matrices while lowercase are used for individual nodes.
+
+
+## Equation 1 - Final Layer Error 
+
+The error at an individual node in the **final layer** of the network can be found using the equation:
+
+
+{{< include equations/finalLayerError.qmd >}}
+
+
+
+To represent the error at every node in the final layer, we can use matrices. 
+
+{{< include equations/finalLayerErrorMatrix.qmd >}}
+
+where $1$ represents a matrix of $1$s with equal dimensions as $A$.
+
+
+## Equation 2 - Intermediate Layer Error
+
+The error at an individual node in an **intermediate layer** $l$ in terms of the next layer $l+1$ can be found using the equation:
+
+$$\delta_j^l = \left( \displaystyle\sum_{k} w_{kj}^{l+1} \delta_k^{l+1} \right) \cdot a_j^l \cdot \left(1 - a_j^l \right)$$
+
+To represent the error at every node in the intermediate layer $l$, use can use matrices.
+
+$$\Delta^l = \left( \left( W^{l+1} \right)^T \cdot \Delta^{l+1} \right) \odot A^l \odot \left(1 - A^l \right)$$
+
+
+where $1$ represents a matrix of $1$s with equal dimensions as $A$.
+
+
+
+## Equation 3 - The Bias Gradient
+
+We refer to the rate of change of the cost with respect to the bias this as the **bias gradient**. 
+
+Mathematically, that is the partial derivative of our cost function with respect to our biases, or $\dfrac{\partial C}{\partial b}$.
+
+To represent the value of the bias gradient with respect to a given node, we will use $\nabla b_j$. 
+
+The result is that the the bias gradient is just the error found at an individual node. 
+
+$$\nabla b_j = \delta_j$$ 
+
+### Consequence for Final Layer
+
+This means that for any node in the **final layer**, we have
+
+$$\nabla b_j = (a_j - y_j) \cdot (a_j) \cdot (1 - a_j)$$
+
+
+Or as a matrices
+
+$$\nabla B = (A - Y) \odot A \odot (1 - A)$$
+
+
+### Consequence for Intermediate Layers
+
+Also for any node in an **intermediate layer** $l$ we have
+
+$$\nabla b_j^l = $$
+
+
+As matrices, 
+
+$$\nabla B =$$
+
+## Equation 4 - The Weight Gradient

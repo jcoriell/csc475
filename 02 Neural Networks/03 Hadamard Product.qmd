@@ -1,0 +1,11 @@
+---
+title: "Hadamard Product"
+---
+
+
+Let $A$ and $B$ be two matrices of equal size. Then the Hadamard Product is the componentwise product of every  $a_{ij}$ and $b_{ij}$
+
+
+
+### Example
+

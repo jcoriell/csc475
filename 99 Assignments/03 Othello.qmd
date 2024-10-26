@@ -1,0 +1,55 @@
+---
+title: An Intelligent Othello Player
+---
+
+![](images/othello1.jpeg){width=30% fig-align="center"}
+
+## Overview
+
+This assignment will give you experience implementing a classical two player game, Othello, along with an AI opponent driven by the mini-max heuristic search algorithm.
+
+The assignment can be broken down into two relatively separate tasks:
+
+1. Implement the mechanics of the game Othello. This includes representing the board, initilizing play, accepting player moves (including rejecting illegal moves), computing the discs that should be flipped, displaying the board after each move (ASCII graphics are acceptable), score keeping, and recognition of when the game is complete.
+
+2. Implement the Mini-Max algorithm, with alphabeta pruning and a reasonable heuristic.
+
+Language of implemention is up to you. Python is a reasonable choice.
+
+## Requirements and Rubric
+
+This assignment provides the opportunity for 110 out of 100 points (10 bonus points).
+
+1. **[10 pts]** Your program is appropriately commented. Be sure to place comments/documentation in every class and function. This includes a readme.md file or a comment block at the beginning of your main program with your name, the date, and a full description of the game. If you plan to put this in your Github portfolio, I suggest a readme.me file.
+
+2. **[40 pts]** Your program implements the rules of the Othello game accurately. In other words, two humans can use your program to successfully play Othello.
+
+3. **[20 pts]** Your program properly implements the Mini-Max algorithm. To demonstrate that mini-max is implemented properly, you should have a debug mode that can be switched on, on a move by move basis. The debug mode should show all the sequences of moves considered from the current state along with the heuristic value associated with each move sequence. By default, the debug mode should be OFF. 
+
+    Additionally, search depth should be easily adjustable, and your program should display the total number of game states examined prior to making a move. Your program should also support computer playing either white or black, that is, if the player wants to have the computer make a move for them, they can choose to do so. 
+
+4. **[20 pts]** Your program properly implements alpha-beta pruning. You will provide the ability to easily switch on/off alpha-beta pruning on a move by move basis. You should be able to demonstrate that alpha=beta pruning is operating properly by observing the total number of game states when it is enabled versus when it is disabled.
+
+5. **[10 pts]** Awarded if your program is able to beat a human that is really trying to win. This will be demonstrated by a recorded program trace of an entire game.
+
+
+## Statement on Academic Integrity
+
+This is an independent assignment. Sharing of code or use of an LLM to generate code is not allowed. You may, however, look for information concerning implementation and understanding of constructs within the language you are using to help with implementation. 
+
+As an example you might search with the phrase "How do I create arrays in javascript?" or ask an LLM "Can you give me examples of using arrays in JavaScript," but not "Give me a function that implements \_\_\_\_\_\_\_\_ in Javascript." The code you write must be your code. Anytime you search for information, be sure to cite it in the comments or within a file called "worklog".
+
+
+## Submitting the Assignment
+
+The assignment will be submitted through gradescope. If you're using GitHub, keep in mind that gradescope does allow you to submit a repository. 
+
+## Grading the Assignment
+
+The assignment will be graded through a code interview with your professor.
+
+## The Othello Rule Book
+
+![](images/othello2.jpeg)
+
+![](images/othello3.jpeg)

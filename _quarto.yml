@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CSC 475 Artificial Intelligence"
+  sidebar:
+    contents:
+      - href: index.qmd
+        text: Home
+      - text: "Assignments"
+        contents:
+          - text: Othello
+            href: "99 Assignments/03 Othello.qmd" 
+      # - text: "Neural Networks"
+      #   href: "02 Neural Networks/00 index.qmd"
+      #   contents:
+      #     - text: Hadamard Product
+      #       href: "02 Neural Networks/03 Hadamard Product.qmd" 
+      #     - text: Backpropagation
+      #       href: "02 Neural Networks/04 Backpropagation.qmd" 
+      # - text: "Search Algorithms"
+      #   href: "02 Neural Networks/00 index.qmd"
+      #   contents:
+      #     - text: A Game as a Search Space
+      #       href: "03 Searching/01 A Game as a Search Space.qmd" 
+      #     - text: Depth-First Search
+      #       href: "03 Searching/02 Depth First.qmd" 
+      #     - text: Breadth-First Search
+      #       href: "03 Searching/03 Breadth First.qmd" 
+      #     - text: Hill Climbing
+      #       href: "03 Searching/04 Hill Climbing.qmd"
+      #     - text: A*
+      #       href: "03 Searching/05 A Star.qmd"
+      #     - text: Mini-max
+      #       href: "03 Searching/06 Minimax.qmd"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,9 @@
+---
+title: "CSC 475 Artificial Intelligence"
+---
+
+CSC 475 AI
+
+Assignments:
+
+- [Othello](99 Assignments/03 Othello.qmd)
