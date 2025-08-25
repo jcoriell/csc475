@@ -1,0 +1,76 @@
+---
+title: Kurzweil's Law of Accelerating Returns
+---
+
+In his 1999 book “The Age of Spiritual Machines” Kurzweil observed that the rate of change of evolutionary systems (systems in which the next generation is based on the previous generation) tend to increase exponentially.  He called this observation the “Law of Accelerating Returns”.
+
+Applied to computing, Kurzweil’s “Law of Accelerating Returns” extends the concept of the exponential doubling of computing speed to various information processing technologies extending back in time to at least the 1890 US census.
+
+Kurzweil identified five information processing technologies over this time period: 
+
+1. Mechanical (1890 – 1935)
+
+    - 1900 Analytical Engine 
+    - 1908 Hollerith Tabulator
+    - 1911 Monroe Calculator
+    - 1919 IBM Tabulator
+    - 1928 National Ellis 3000
+
+    Videos: 
+    - [False Dawn: The Babbage Engine](https://youtu.be/XSkGY6LchJs?si=I5KVSGEuhzD_oJfU)
+    - [Computer History: Punch Cards Historical Overview -IBM Remington Rand UNIVAC - History 1900's-1960's](https://youtu.be/kKJxzay85Vk?si=j6mzxuzaMAwBet5D)
+    
+
+2. Relay (1935-1942)
+
+    - 1939 Zuse 2
+    - 1940 Bell Calculator Model 1
+    - 1941 Zuse 3
+
+    Videos: 
+    - [Computer History: Dr. Konrad Zuse, Computer Pioneer and the Z Computers (Z3) (Germany 1935-1945)](https://youtu.be/6GSZQ9g-jiY?si=MQtoc9MV6qlvRUil)
+
+3. Vacuum tube (1942-1960)
+    
+    - 1943 Colossus
+    - 1946 ENIAC
+    - 1954 EDVAC
+    - and others...
+
+    Videos:
+    - [Why The First Computers Were Made Out Of Light Bulbs](https://youtu.be/FU_YFpfDqqA?si=pczBtdaEIhg49r3P)
+
+
+4. Transistor (1960-1973) 
+
+    - 1958 Datamatic 1000
+    - 1958 Univac II
+    - 1959 Mobidic
+    - 1959 IBM 7090
+    - 1960 DEC PDP-1
+    - 1962 Univac III
+    - 1965 DEC PDP-8
+    - 1966 IBM 360 Model 75
+    - and others...
+
+    Videos:
+    - [DEC PDP Minicomputer Collection at the Computer Museum of America](https://youtu.be/XaAdXqJMls0?si=yAGGRMKwJL3iLXdT)
+
+
+5. Integrated circuit (1973-present day)
+
+    - 1968 DEC PDP-10
+    - 1973 Intellec-8
+    - 1976 DEC PDP-11 Model 70
+    - 1977 Cray I
+    - 1977 Apple II
+    - 1979 DEC VAX 11Model 780
+    - 1983 IBM AT-80286
+    - 1984 Apple Macintosh
+    - 1987 Apple Mac II
+    - 1993 Pentium PC
+    - and others...
+
+Kurzweil has used this “law” to estimate when the Turing Test would be passed and with the Singularity would occur.
+
+![Calculations Per Second Per Constant Dollar](images/law-of-accel-returns.png)

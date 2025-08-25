@@ -1,0 +1,28 @@
+---
+title: Moore's Law
+---
+
+
+Moore's law is the observation that the number of transistors in an integrated circuit (IC) doubles about every two years [^1]. 
+
+Moore's law is an observation and projection of a historical trends, rather than a law of physics.
+
+Moore’s Law is named after Gordon Moore (1929-2023), the co-founder and former CEO of Intel who in 1965 noted that transistor counts in integrate circuits were doubling approximately every year and predicted that such doubling would continue for at least a decade.  In 1975 he modified his forecast to a doubling of component count every two years.
+
+![Gordon Moore in 1978](https://upload.wikimedia.org/wikipedia/commons/e/eb/Gordon_Moore_1978_%28cropped%29.png){width=30%}
+
+We appear to be nearing the ultimate physical limits of Moore’s Law as components approach the atomic scale, but there is little consensus on when the “law” will end.
+
+In 50 years (1970-2020) the number of transistors per microchip increased nearly 50,000,000 (50 million) times – from 1,000 to 50 billion.
+
+[![Transistor count on various machines from 1970 - 2020](https://upload.wikimedia.org/wikipedia/commons/0/00/Moore%27s_Law_Transistor_Count_1970-2020.png)](https://upload.wikimedia.org/wikipedia/commons/0/00/Moore%27s_Law_Transistor_Count_1970-2020.png)
+
+
+Over 30 years, from 1993 – 2023, supercomputer speed increased from 60 gigaFLOPS (60 billion floating point operations per second) to 1.1 exaFLOPS (1.1 billion billion floating point operations per second) a nearly 20 million fold increase in speed.
+
+
+![Fastest Super Computers from 1993-2025](images/super%20computers%201993-2024.png)
+
+![World's Fastest Super Computers 1993-2023](images/Super%20Computer%20Speed.png)
+
+[^1]: [Wikipedia - Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)

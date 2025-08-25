@@ -1,0 +1,16 @@
+---
+title: The Turing Test
+---
+
+In 1950, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) published a paper entitled [Computing Machinery and Intelligence](https://courses.cs.umbc.edu/471/papers/turing.pdf) in which he described a test that he believed could be used to measure progress towards creating intelligent machines.  
+
+![Alan Turing - 1951](https://upload.wikimedia.org/wikipedia/commons/c/ce/Alan_turing_header.jpg){width=40%}
+
+The goal of the Turing test, as it has come to be known, is to determine whether a machine acts in an intelligent manner. 
+
+In one version of the test, a human interrogator enters into a conversation with an entity (which may either be another human or a machine) via a computer terminal. The human and the entity are not allowed to see one another or communicate in any way, other than by typed messages.   The goal of the human interrogator is to determine whether he or she is, in fact, communicating with another human or with a machine.  
+
+If the human cannot reliably determine the difference between the two, we conclude that the machine is exhibiting intelligent behavior. 
+
+Test yourself with [Human or Not?](https://humanornot.so/), a game that mimics the Turing Test.
+

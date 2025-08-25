@@ -1,0 +1,58 @@
+---
+title: The Singularity
+---
+
+## The Concept 
+The **Technological Singularity**, often referred to as “the singularity” is a hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization [^1].                                               
+
+While there are many versions of the singularity hypothesis, most involve the notion of an artificially intelligence program entering a cycle of self-improvement where the end result is a superintelligence, far more capable that any human.
+
+Rapid take off scenario
+
+Gentle take off scenario
+
+
+## The History of the Term
+
+The history of the concept and term is a bit murky, but the computer scientist [John von Neuman](https://en.wikipedia.org/wiki/John_von_Neumann) may have been the first person to describe the concept of a technological singularity.
+
+![John von Neuman [^2]](https://upload.wikimedia.org/wikipedia/commons/5/5e/JohnvonNeumann-LosAlamos.gif){width=40%}
+
+John von Neumann is credited by Stanislaw Ulam with having discussed “the accelerating progress of technology and changes in the mode of human life, which gives the appearance of approaching some essential singularity in the history of the race beyond which human affairs, as we know them, could not continue“. [^3] This discussion would have occurred no later than the mid-1950’s as von Neumann died on February 8, 1957.
+
+The mathematics professor, computer scientist, and science fiction writer [Vernor Vinge](https://en.wikipedia.org/wiki/Vernor_Vinge) is generally credited with coining the term “the Technological Singularity”.
+
+![Vernor Vinge in 2006 [^4]](https://upload.wikimedia.org/wikipedia/commons/7/7d/Vernor_Vinge_%28cropped%29.jpg){width=40%}
+
+
+In 1993, Vinge wrote the article “The Coming Technological Singularity: How to Survive the Post-Human Era”, which he presented at the VISION-21 Symposium sponsored by NASA Lewis Research Center and the Ohio Aerospace Institute, March 30-31, 1993.[^5]
+
+The abstract of the paper begins:  “Within thirty years, we will have the technological means to create superhuman intelligence. Shortly after, the human era will be ended.”
+
+In this 1993 paper, he goes on to write: “I believe that the creation of greater than human intelligence will occur during the next thirty years.  … let me more specific: I'll be surprised if this event occurs before 2005 or after 2030.”
+
+One of the figures most closely associated with the singularity concept is the inventor and futurist [Raymond Kurzweil](https://en.wikipedia.org/wiki/Ray_Kurzweil).  Ray Kurzweil has made significant contributions in optical character recognition, text-to-speech synthesis, speech recognition, and musical synthesizers, among other fields.
+
+![Ray Kurzweil in 2017](https://upload.wikimedia.org/wikipedia/commons/9/96/Ray_Kurzweil_%40_SXSW_2017_%2832594766664%29.jpg){width="40%"}
+
+Kurzweil is noted for his [Law of Accelerating Returns](https://en.wikipedia.org/wiki/Accelerating_change#Kurzweil's_Law_of_Accelerating_Returns) an extension of [“Moore’s Law”](https://en.wikipedia.org/wiki/Moore%27s_law). 
+
+ One innovation that separates Kurzweil from most other futurists is that he has attempted to use his “Law of Accelerating Returns” as a way of systematizing his predictions concerning future technological advancements.
+
+In his 1999 book [The Age of Spiritual Machines](https://en.wikipedia.org/wiki/The_Age_of_Spiritual_Machines) Kurzweil predicted that the Turing Test would be passed by 2029 [Link to Purchase - Amazon](https://www.amazon.com/Age-Spiritual-Machines-Computers-Intelligence/dp/0140282025).
+
+In his 2005 book [The Singularity is Near](https://en.wikipedia.org/wiki/The_Singularity_Is_Near) Kurzweil predicted that the singularity will be achieved by 2045 [Link to Purchase - Amazon](https://www.amazon.com/Singularity-Near-Humans-Transcend-Biology/dp/0143037889/135-3156174-5533826).
+
+In his 2024 book [The Singularity is Nearer”](https://en.wikipedia.org/wiki/The_Singularity_Is_Near) Kurzweil reiterates his belief that these predictions are on-track to become reality in the specified timeframes [Link to Purchase - Amazon](https://www.amazon.com/Singularity-Nearer-Ray-Kurzweil/dp/0399562761/135-3156174-5533826).
+
+
+
+
+
+[^1]: [Wikipedia - Technological Singularity](https://en.wikipedia.org/wiki/Technological_singularity)
+[^2]: [John von Neuman](https://upload.wikimedia.org/wikipedia/commons/5/5e/JohnvonNeumann-LosAlamos.gif)
+[^3]: [Ulam, Stanislaw (May 1958). "Tribute to John von Neumann“](https://www.ams.org/journals/bull/1958-64-03/S0002-9904-1958-10189-5/S0002-9904-1958-10189-5.pdf)
+[^4]: [Vernor Vinge in 2006](https://upload.wikimedia.org/wikipedia/commons/7/7d/Vernor_Vinge_%28cropped%29.jpg)
+[^5]: [The Coming Technological Singularity: How to Survive in the Post-Human Era](https://edoras.sdsu.edu/~vinge/misc/singularity.html)
+
+
