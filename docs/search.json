@@ -1,49 +1,105 @@
 [
   {
-    "objectID": "02 Neural Networks/04 Backpropagation.html",
-    "href": "02 Neural Networks/04 Backpropagation.html",
+    "objectID": "01 Introduction/04 Kurzweil's Law/index.html",
+    "href": "01 Introduction/04 Kurzweil's Law/index.html",
+    "title": "Kurzweil’s Law of Accelerating Returns",
+    "section": "",
+    "text": "In his 1999 book “The Age of Spiritual Machines” Kurzweil observed that the rate of change of evolutionary systems (systems in which the next generation is based on the previous generation) tend to increase exponentially. He called this observation the “Law of Accelerating Returns”.\nApplied to computing, Kurzweil’s “Law of Accelerating Returns” extends the concept of the exponential doubling of computing speed to various information processing technologies extending back in time to at least the 1890 US census.\nKurzweil identified five information processing technologies over this time period:\n\nMechanical (1890 – 1935)\n\n1900 Analytical Engine\n1908 Hollerith Tabulator\n1911 Monroe Calculator\n1919 IBM Tabulator\n1928 National Ellis 3000\n\nVideos:\n\nFalse Dawn: The Babbage Engine\nComputer History: Punch Cards Historical Overview -IBM Remington Rand UNIVAC - History 1900’s-1960’s\n\nRelay (1935-1942)\n\n1939 Zuse 2\n1940 Bell Calculator Model 1\n1941 Zuse 3\n\nVideos:\n\nComputer History: Dr. Konrad Zuse, Computer Pioneer and the Z Computers (Z3) (Germany 1935-1945)\n\nVacuum tube (1942-1960)\n\n1943 Colossus\n1946 ENIAC\n1954 EDVAC\nand others…\n\nVideos:\n\nWhy The First Computers Were Made Out Of Light Bulbs\n\nTransistor (1960-1973)\n\n1958 Datamatic 1000\n1958 Univac II\n1959 Mobidic\n1959 IBM 7090\n1960 DEC PDP-1\n1962 Univac III\n1965 DEC PDP-8\n1966 IBM 360 Model 75\nand others…\n\nVideos:\n\nDEC PDP Minicomputer Collection at the Computer Museum of America\n\nIntegrated circuit (1973-present day)\n\n1968 DEC PDP-10\n1973 Intellec-8\n1976 DEC PDP-11 Model 70\n1977 Cray I\n1977 Apple II\n1979 DEC VAX 11Model 780\n1983 IBM AT-80286\n1984 Apple Macintosh\n1987 Apple Mac II\n1993 Pentium PC\nand others…\n\n\nKurzweil has used this “law” to estimate when the Turing Test would be passed and with the Singularity would occur.\n\n\n\nCalculations Per Second Per Constant Dollar"
+  },
+  {
+    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html",
+    "href": "01 Introduction/05 Kurzweil's Estimates/index.html",
+    "title": "Kurzweil’s Estimates",
+    "section": "",
+    "text": "To estimate when human level intelligence in computers would be achieved – and thus when the Turing Test would be passed, Kurzweil first estimated the information processing capacity of the human brain.\nHe then used his “Law of Accelerating Returns” to estimate when computers would have roughly the same level of information processing power as the human brain – when we would have ‘hardware’ powerful enough to simulate a human brain in real time.\nHis basic assumption was that the transmission of one ‘signal’ across a synaptic gap between neurons (the most fundamental operation of the brain) is roughly equivalent to one floating point operation – a single instruction, which is the most fundamental operation of a computer.\n\n\n\nParts of a neuron\n\n\n\n\n\nIn addition to the hardware necessary to achieve human level intelligence, there is also the question of the software.\nSince it is pretty much impossible to predict when various AI algorithms will be discovered, Kurzweil reasoned that the most obvious “brute force” path to achieving human intelligence in a computer would be to create a digital copy of a human brain.\nHe noted that progress in medical imaging technology (e.g., CT scanners, MRIs) is following his “Law of Accelerating Returns” in that scanning resolution is improving exponentially with time and would eventually reach the level of being able to resolve the individual synapses of the human brain.\nThus, at some point, we should have the hardware and software to “upload” and simulate a human in real time on a computer, and thereby pass the Turing Test\n\n\n\nThe human brain is estimated to contain approximately 100 billion neurons, or \\(1 \\times 10^{11}\\) neurons 1.\nIt is estimated that each neuron is connected to 5,000 to 10,000, or \\(1 \\times 10^4\\) other neurons across synaptic gaps 2.\nThus, the human brain contains approximately 1 million billion or \\(1 \\times 10^{15}\\) synaptic connections:\n\\[ \\left( 1 \\times 10^{11} \\text{ neurons} \\right) \\times  \\left( 1 \\times 10^4 \\dfrac{\\text{synapses}}{\\text{neuron}} \\right) = 1 \\times 10^{15} \\text{ synaptic connections}\\]\nNeurons communicate with one another by passing neurochemicals (e. g., dopamine) across the synaptic gaps between their dendrites. Estimates of the average rate of speed with which neurons can “fire” (send a signal to the neurons they are connected to) vary widely, as some neurons may fire every few seconds while others may fire a few hundred times a second.\nIf we estimate the average neuron firing rate at 100 times per second (Kurzweil originally used 200), we end up with 100 million billion, or \\(1 * 10^{17}\\) “signals” that can be transmitted per second by the human brain.\nKurzweil predicted in 1999 that “prior to 2020” the faster supercomputers would have enough raw processing power to exceed that of the human brain. And if we take 100 million billion FLOPS as an accurate estimate of the processing power of the human brain, Kurzweil was correct. In June 2018, IBM’s Summit computer reached 122.3 million billion FLOPS (122.3 petaFLOPS).\n\n\n\nIBM’s Summit Components - Wikipedia\n\n\n\n\n\nKurzweil was less sure of when we would be able to scan a human brain and upload it. And he also recognized that there would be “overhead” in conducting a brain simulation, so he added a fudge factor of a decade, setting the deadline for human level intelligence in computers and passing the Turing test no later than 2029.\nOf course, these days no one really expects whole brain simulation / uploading to be the way human level intelligence in computers is reached, but Kurzweil’s general approach for predicting an outcome 30 years in the future makes some sense – and is certainly better than “guessing” a date (as one could argue Vernor Venge did)."
+  },
+  {
+    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#turing-test-predictions",
+    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#turing-test-predictions",
+    "title": "Kurzweil’s Estimates",
+    "section": "",
+    "text": "To estimate when human level intelligence in computers would be achieved – and thus when the Turing Test would be passed, Kurzweil first estimated the information processing capacity of the human brain.\nHe then used his “Law of Accelerating Returns” to estimate when computers would have roughly the same level of information processing power as the human brain – when we would have ‘hardware’ powerful enough to simulate a human brain in real time.\nHis basic assumption was that the transmission of one ‘signal’ across a synaptic gap between neurons (the most fundamental operation of the brain) is roughly equivalent to one floating point operation – a single instruction, which is the most fundamental operation of a computer.\n\n\n\nParts of a neuron\n\n\n\n\n\nIn addition to the hardware necessary to achieve human level intelligence, there is also the question of the software.\nSince it is pretty much impossible to predict when various AI algorithms will be discovered, Kurzweil reasoned that the most obvious “brute force” path to achieving human intelligence in a computer would be to create a digital copy of a human brain.\nHe noted that progress in medical imaging technology (e.g., CT scanners, MRIs) is following his “Law of Accelerating Returns” in that scanning resolution is improving exponentially with time and would eventually reach the level of being able to resolve the individual synapses of the human brain.\nThus, at some point, we should have the hardware and software to “upload” and simulate a human in real time on a computer, and thereby pass the Turing Test\n\n\n\nThe human brain is estimated to contain approximately 100 billion neurons, or \\(1 \\times 10^{11}\\) neurons 1.\nIt is estimated that each neuron is connected to 5,000 to 10,000, or \\(1 \\times 10^4\\) other neurons across synaptic gaps 2.\nThus, the human brain contains approximately 1 million billion or \\(1 \\times 10^{15}\\) synaptic connections:\n\\[ \\left( 1 \\times 10^{11} \\text{ neurons} \\right) \\times  \\left( 1 \\times 10^4 \\dfrac{\\text{synapses}}{\\text{neuron}} \\right) = 1 \\times 10^{15} \\text{ synaptic connections}\\]\nNeurons communicate with one another by passing neurochemicals (e. g., dopamine) across the synaptic gaps between their dendrites. Estimates of the average rate of speed with which neurons can “fire” (send a signal to the neurons they are connected to) vary widely, as some neurons may fire every few seconds while others may fire a few hundred times a second.\nIf we estimate the average neuron firing rate at 100 times per second (Kurzweil originally used 200), we end up with 100 million billion, or \\(1 * 10^{17}\\) “signals” that can be transmitted per second by the human brain.\nKurzweil predicted in 1999 that “prior to 2020” the faster supercomputers would have enough raw processing power to exceed that of the human brain. And if we take 100 million billion FLOPS as an accurate estimate of the processing power of the human brain, Kurzweil was correct. In June 2018, IBM’s Summit computer reached 122.3 million billion FLOPS (122.3 petaFLOPS).\n\n\n\nIBM’s Summit Components - Wikipedia\n\n\n\n\n\nKurzweil was less sure of when we would be able to scan a human brain and upload it. And he also recognized that there would be “overhead” in conducting a brain simulation, so he added a fudge factor of a decade, setting the deadline for human level intelligence in computers and passing the Turing test no later than 2029.\nOf course, these days no one really expects whole brain simulation / uploading to be the way human level intelligence in computers is reached, but Kurzweil’s general approach for predicting an outcome 30 years in the future makes some sense – and is certainly better than “guessing” a date (as one could argue Vernor Venge did)."
+  },
+  {
+    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#singularity-predictions",
+    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#singularity-predictions",
+    "title": "Kurzweil’s Estimates",
+    "section": "Singularity Predictions",
+    "text": "Singularity Predictions\nKurzweil’s 2005 prediction that the singularity will be achieved by 2045 is equally straightforward and based directly on his “Law of Accelerating Returns”.\nGiven human level intelligence in computers by 2029, he simply extrapolated that intelligence would double every two years in accordance with the historic rate of increase in computing technology.\nSince 16 years would represent 8 doublings or a 256 fold increase, that is \\(2^8 = 256\\), in intelligence, Kurzweil reasoned that by 2045 humans will no longer be the dominate intellectual force on the planet and that progress driven by machines which double their intellectual capacity every two years, would far outstrip anything humans could hope to accomplish."
+  },
+  {
+    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#researchers-thoughts",
+    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#researchers-thoughts",
+    "title": "Kurzweil’s Estimates",
+    "section": "Researcher’s Thoughts",
+    "text": "Researcher’s Thoughts\nDr. O’Neal has been one of the few computer scientists consistently presenting Kurzweil’s ideas to his students in his AI classes for the past 30+ years. He has felt that even if these predictions were unlikely to be proven true, the reasoning behind Kurzweil’s projections were fascinating in their own right, and the implications if he were correct were so profound that he wanted students to be aware of Kurzweil’s ideas.\nOver the last few years (2020-2025), things have dramatically changed. Vinge and Kurzweil have gone from the “fringe” to “brilliant visionaries”. Serious AI researchers, at the forefront of machine learning, are now frequently speaking about the likelihood of a technological singularity within a handful of years. There is also active debate as to whether current Large Language Models (LLMs) now pass the Turing Test. Anyone who has interacted with ChatGPT or CharacterAI must admit these systems are at least close to being able to use language and converse at the human level.\nThe initial public release of ChatGPT occurred on November 30, 2022. ChatGPT integrated a chat interface to GPT 3.5 for use with the general public.\n\n\n\n\n\n\nGPT - Generative Pre-trained Transformer\n\n\n\nGPT stands for Generative Pre-trained Transformer. Generative meaning that GPT can generate new results on the fly. Pre-trained meaning that the network was trained prior to public release. A Transformer is a type of neural network architecture.\n\n\nChatGTP can solve many problems that computer scientists and AI researchers have been working on for well over half a century with little success. Now, suddenly, its not just science fiction writers and “futurists” who are talking about the relatively near-term possibility of Artificial General Intelligence and the singularity, it is the AI researchers themselves who are sounding the alarms about a potentially existential crisis for the human race. Not one expected LLMs to be so good at so many things. These are the first truly “broad” AIs ever created – they can solve many types of problems.\nProgress was so quick. In just a few years we went from nothing to near-human level performance. After many decades of lots of effort and very little progress.There doesn’t appear to be any fundamental roadblocks to continued rapid advancement. And, in fact, capability appears to be directly correlated with increasing number of parameters (weights) and volume of training data. (I.e., we know how to continue scaling improvements.)\nNo one knows exactly what they know. There is a very real problem of “alignment”. Getting these systems to behave in ways we want them to.\nNo one truly knows the future, though as we have seen in this lecture extrapolating long-term trends such as Moore’s Law and Kurweil’s Law of Accelerating Returns can sometimes produce impressive results. The fact is the experts – those developing the technology – are clearly concerned, some might say “scared”.\nHumans may be a handful of years from developing a human-level Artificial General Intelligence (AGI). Will superintelligent AGI soon follow?\nThe Center for AI Safety realeased a statement on My 30th, 2023. Signed by many luminaries in the field of AI research, including:\n\nGeoffrey Hinton - Emeritus Professor of Computer Science, University of Toronto, 2024 Nobel Prize Winner in Physics\nDemis Hassabis - CEO, Google DeepMind\nSam Altman - CEO, OpenAI\nDario Amodei - CEO, Anthropic\nBill Gates - Gates Ventures\nIlya Sutskever - Co-Founder and Chief Scientist, OpenAI\nStuart Russell - Professor of Computer Science, UC Berkeley\nAnd many hundreds of other researchers\n\n\n\n\n\n\n\nCenter for AI Safety Statement - Issued May 30th, 2023 3\n\n\n\nThe one sentence statement reads:\nMitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.\n\n\nA note of caution: While we don’t currently see any roadblocks to continue progress along this path, as we will see in future lectures, AI researchers have made grand predictions about AI in the past that did NOT come to pass. Maybe we are just repeating the boom-bust hype cycle AI is known for."
+  },
+  {
+    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#footnotes",
+    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#footnotes",
+    "title": "Kurzweil’s Estimates",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nA more recent estimate is 86 billion.↩︎\nKurzweil used 1,000 in his original 1999 estimate.↩︎\nCenter for AI Safety↩︎"
+  },
+  {
+    "objectID": "01 Introduction/02 Moore's Law/index.html",
+    "href": "01 Introduction/02 Moore's Law/index.html",
+    "title": "Moore’s Law",
+    "section": "",
+    "text": "Moore’s law is the observation that the number of transistors in an integrated circuit (IC) doubles about every two years 1.\nMoore’s law is an observation and projection of a historical trends, rather than a law of physics.\nMoore’s Law is named after Gordon Moore (1929-2023), the co-founder and former CEO of Intel who in 1965 noted that transistor counts in integrate circuits were doubling approximately every year and predicted that such doubling would continue for at least a decade. In 1975 he modified his forecast to a doubling of component count every two years.\nWe appear to be nearing the ultimate physical limits of Moore’s Law as components approach the atomic scale, but there is little consensus on when the “law” will end.\nIn 50 years (1970-2020) the number of transistors per microchip increased nearly 50,000,000 (50 million) times – from 1,000 to 50 billion.\nOver 30 years, from 1993 – 2023, supercomputer speed increased from 60 gigaFLOPS (60 billion floating point operations per second) to 1.1 exaFLOPS (1.1 billion billion floating point operations per second) a nearly 20 million fold increase in speed."
+  },
+  {
+    "objectID": "01 Introduction/02 Moore's Law/index.html#footnotes",
+    "href": "01 Introduction/02 Moore's Law/index.html#footnotes",
+    "title": "Moore’s Law",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWikipedia - Moore’s Law↩︎"
+  },
+  {
+    "objectID": "05 Neural Networks/04 Backpropagation.html",
+    "href": "05 Neural Networks/04 Backpropagation.html",
     "title": "Backpropagation",
     "section": "",
     "text": "Background for the following:\n\ncapital letters are used for matrices while lowercase are used for individual nodes."
   },
   {
-    "objectID": "02 Neural Networks/04 Backpropagation.html#a-note-on-notations",
-    "href": "02 Neural Networks/04 Backpropagation.html#a-note-on-notations",
+    "objectID": "05 Neural Networks/04 Backpropagation.html#a-note-on-notations",
+    "href": "05 Neural Networks/04 Backpropagation.html#a-note-on-notations",
     "title": "Backpropagation",
     "section": "",
     "text": "Background for the following:\n\ncapital letters are used for matrices while lowercase are used for individual nodes."
   },
   {
-    "objectID": "02 Neural Networks/04 Backpropagation.html#equation-1---final-layer-error",
-    "href": "02 Neural Networks/04 Backpropagation.html#equation-1---final-layer-error",
+    "objectID": "05 Neural Networks/04 Backpropagation.html#equation-1---final-layer-error",
+    "href": "05 Neural Networks/04 Backpropagation.html#equation-1---final-layer-error",
     "title": "Backpropagation",
     "section": "Equation 1 - Final Layer Error",
     "text": "Equation 1 - Final Layer Error\nThe error at an individual node in the final layer of the network can be found using the equation:\n\\[\\delta_j = \\left( a_j - y_j \\right) \\cdot a_j \\cdot \\left( 1 - a_j \\right)\\]\nTo represent the error at every node in the final layer, we can use matrices.\n\\[\\Delta = \\left( A - Y \\right) \\odot A \\odot ( 1 - A )\\]\nwhere \\(1\\) represents a matrix of \\(1\\)s with equal dimensions as \\(A\\)."
   },
   {
-    "objectID": "02 Neural Networks/04 Backpropagation.html#equation-2---intermediate-layer-error",
-    "href": "02 Neural Networks/04 Backpropagation.html#equation-2---intermediate-layer-error",
+    "objectID": "05 Neural Networks/04 Backpropagation.html#equation-2---intermediate-layer-error",
+    "href": "05 Neural Networks/04 Backpropagation.html#equation-2---intermediate-layer-error",
     "title": "Backpropagation",
     "section": "Equation 2 - Intermediate Layer Error",
     "text": "Equation 2 - Intermediate Layer Error\nThe error at an individual node in an intermediate layer \\(l\\) in terms of the next layer \\(l+1\\) can be found using the equation:\n\\[\\delta_j^l = \\left( \\displaystyle\\sum_{k} w_{kj}^{l+1} \\delta_k^{l+1} \\right) \\cdot a_j^l \\cdot \\left(1 - a_j^l \\right)\\]\nTo represent the error at every node in the intermediate layer \\(l\\), use can use matrices.\n\\[\\Delta^l = \\left( \\left( W^{l+1} \\right)^T \\cdot \\Delta^{l+1} \\right) \\odot A^l \\odot \\left(1 - A^l \\right)\\]\nwhere \\(1\\) represents a matrix of \\(1\\)s with equal dimensions as \\(A\\)."
   },
   {
-    "objectID": "02 Neural Networks/04 Backpropagation.html#equation-3---the-bias-gradient",
-    "href": "02 Neural Networks/04 Backpropagation.html#equation-3---the-bias-gradient",
+    "objectID": "05 Neural Networks/04 Backpropagation.html#equation-3---the-bias-gradient",
+    "href": "05 Neural Networks/04 Backpropagation.html#equation-3---the-bias-gradient",
     "title": "Backpropagation",
     "section": "Equation 3 - The Bias Gradient",
     "text": "Equation 3 - The Bias Gradient\nWe refer to the rate of change of the cost with respect to the bias this as the bias gradient.\nMathematically, that is the partial derivative of our cost function with respect to our biases, or \\(\\dfrac{\\partial C}{\\partial b}\\).\nTo represent the value of the bias gradient with respect to a given node, we will use \\(\\nabla b_j\\).\nThe result is that the the bias gradient is just the error found at an individual node.\n\\[\\nabla b_j = \\delta_j\\]\n\nConsequence for Final Layer\nThis means that for any node in the final layer, we have\n\\[\\nabla b_j = (a_j - y_j) \\cdot (a_j) \\cdot (1 - a_j)\\]\nOr as a matrices\n\\[\\nabla B = (A - Y) \\odot A \\odot (1 - A)\\]\n\n\nConsequence for Intermediate Layers\nAlso for any node in an intermediate layer \\(l\\) we have\n\\[\\nabla b_j^l = \\]\nAs matrices,\n\\[\\nabla B =\\]"
   },
   {
-    "objectID": "02 Neural Networks/04 Backpropagation.html#equation-4---the-weight-gradient",
-    "href": "02 Neural Networks/04 Backpropagation.html#equation-4---the-weight-gradient",
+    "objectID": "05 Neural Networks/04 Backpropagation.html#equation-4---the-weight-gradient",
+    "href": "05 Neural Networks/04 Backpropagation.html#equation-4---the-weight-gradient",
     "title": "Backpropagation",
     "section": "Equation 4 - The Weight Gradient",
     "text": "Equation 4 - The Weight Gradient"
   },
   {
-    "objectID": "02 Neural Networks/equations/finalLayerErrorMatrix.html",
-    "href": "02 Neural Networks/equations/finalLayerErrorMatrix.html",
+    "objectID": "05 Neural Networks/equations/finalLayerErrorMatrix.html",
+    "href": "05 Neural Networks/equations/finalLayerErrorMatrix.html",
     "title": "CSC 475 Artificial Intelligence",
     "section": "",
     "text": "\\[\\Delta = \\left( A - Y \\right) \\odot A \\odot ( 1 - A )\\]"
@@ -115,478 +171,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "CSC 475 AI\nAssignments:\n\nOthello",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "02 Neural Networks/00 index.html",
-    "href": "02 Neural Networks/00 index.html",
-    "title": "Outline",
-    "section": "",
-    "text": "Outline"
-  },
-  {
-    "objectID": "02 Neural Networks/equations/finalLayerError.html",
-    "href": "02 Neural Networks/equations/finalLayerError.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "\\[\\delta_j = \\left( a_j - y_j \\right) \\cdot a_j \\cdot \\left( 1 - a_j \\right)\\]"
-  },
-  {
-    "objectID": "02 Neural Networks/03 Hadamard Product.html",
-    "href": "02 Neural Networks/03 Hadamard Product.html",
-    "title": "Hadamard Product",
-    "section": "",
-    "text": "Let \\(A\\) and \\(B\\) be two matrices of equal size. Then the Hadamard Product is the componentwise product of every \\(a_{ij}\\) and \\(b_{ij}\\)\n\nExample"
-  },
-  {
-    "objectID": "03 Searching/01 A Game as a Search Space.html",
-    "href": "03 Searching/01 A Game as a Search Space.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "G\n\n\n\nA\n\nA\n\n\n\nB\n\nB\n\n\n\nA-&gt;B\n\n\n\n\n\nC\n\nC\n\n\n\nA-&gt;C\n\n\n\n\n\nD\n\nD\n\n\n\nA-&gt;D\n\n\n\n\n\nE\n\nE\n\n\n\nB-&gt;E\n\n\n\n\n\nF\n\nF\n\n\n\nB-&gt;F\n\n\n\n\n\nC-&gt;D\n\n\n\n\n\nG\n\nG\n\n\n\nC-&gt;G\n\n\n\n\n\nH\n\nH\n\n\n\nD-&gt;H\n\n\n\n\n\nI\n\nI\n\n\n\nD-&gt;I\n\n\n\n\n\nJ\n\nJ\n\n\n\nG-&gt;J\n\n\n\n\n\nM\n\nM\n\n\n\nJ-&gt;M\n\n\n\n\n\nK\n\nK\n\n\n\nI-&gt;K\n\n\n\n\n\nL\n\nL\n\n\n\nI-&gt;L\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A((A))--&gt;B((B))\n    A--&gt;C((C))\n    A--&gt;D((D))\n    B--&gt;E((E))\n    B--&gt;F((F))\n    C--&gt;G((G))\n    C--&gt;D\n    D--&gt;H((H))\n    D--&gt;I((I))\n    G--&gt;J((J))\n    J--&gt;M((M))\n    I--&gt;K((K))\n    I--&gt;L((L))\n\n    classDef commonStyle fill:#f9f,stroke:#333,stroke-width:2px;\n    class A,B commonStyle;"
-  },
-  {
-    "objectID": "04 Logic/03 Prolog/02 First Program.html",
-    "href": "04 Logic/03 Prolog/02 First Program.html",
-    "title": "First Program",
-    "section": "",
-    "text": "Prolog is composed of three types of clauses: facts, rules, and queries. In this file we look at how to declare facts and rules inside a Prolog file."
-  },
-  {
-    "objectID": "04 Logic/03 Prolog/02 First Program.html#first-program",
-    "href": "04 Logic/03 Prolog/02 First Program.html#first-program",
-    "title": "First Program",
-    "section": "First Program",
-    "text": "First Program\nCreate a file named family.pl.\nWe start by declaring facts in Prolog. To declare a fact, you simply\n% declaring facts\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter."
-  },
-  {
-    "objectID": "04 Logic/03 Prolog/01 Installing Prolog.html",
-    "href": "04 Logic/03 Prolog/01 Installing Prolog.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
-    "objectID": "04 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
-    "href": "04 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
-    "objectID": "04 Logic/03 Prolog/02 First Program.html#overview",
-    "href": "04 Logic/03 Prolog/02 First Program.html#overview",
-    "title": "First Program",
-    "section": "",
-    "text": "Prolog is composed of three types of clauses: facts, rules, and queries. In this file we look at how to declare facts and rules inside a Prolog file."
-  },
-  {
-    "objectID": "04 Logic/03 Prolog/02 First Program.html#declaring-facts",
-    "href": "04 Logic/03 Prolog/02 First Program.html#declaring-facts",
-    "title": "First Program",
-    "section": "Declaring Facts",
-    "text": "Declaring Facts\nCreate a file named family.pl.\nWe start by declaring facts in Prolog. To declare a fact, you simply define information about a single entity, or a relation between two entitites.\nTo declare a fact about one entity, it simply looks like you are calling a function in most langauges. To point out a few details, constants all start with a lowercase letter (such as jim and pam) and we end each line with a period.\nman(jim).       % jim is a man\nwoman(pam).     % pam is a woman\nwoman(cecelia). % cecelia is a woman\nman(phillip).   % phillip is a \nTo declare a relation between two entities, it looks like you are calling a function with two arguments.\nparent(jim, cecelia).   % jim is a parent of cecelia\nparent(pam, cecelia).   % pam is a parent of cecelia\nparent(jim, phillip).   % jim is a parent of phillip\nparent(pam, phillip).   % pam is a parent of phillip\nTo declare a rule, we use the notation conclusion :- condition\nmom(X,Y) :- parent(X, Y), woman(X).  % X is a mom of Y if X is a parent of Y and X is a woman\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter."
-  },
-  {
-    "objectID": "04 Logic/03 Prolog/02 First Program.html#full-program",
-    "href": "04 Logic/03 Prolog/02 First Program.html#full-program",
-    "title": "First Program",
-    "section": "Full Program",
-    "text": "Full Program\nCombining the various pieces of code from above, we arrive at our final program. The next file will discuss how to make queries on this program.\nman(jim).       % jim is a man\nwoman(pam).     % pam is a woman\nwoman(cecelia). % cecelia is a woman\nman(phillip).   % phillip is a \n\nparent(jim, cecelia).   % jim is a parent of cecelia\nparent(pam, cecelia).   % pam is a parent of cecelia\nparent(jim, phillip).   % jim is a parent of phillip\nparent(pam, phillip).   % pam is a parent of phillip\n\n% declaring rules\nmom(X,Y) :- parent(X, Y), woman(X).  % X is a mom of Y if X is a parent of Y and X is a woman"
-  },
-  {
-    "objectID": "04 Logic/03 Prolog/03 Making Queries.html",
-    "href": "04 Logic/03 Prolog/03 Making Queries.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
-  },
-  {
-    "objectID": "04 Logic/03 Prolog/03 Making Queries.html#first-program",
-    "href": "04 Logic/03 Prolog/03 Making Queries.html#first-program",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
-  },
-  {
-    "objectID": "01 History and Ethics/01 The Singularity/index.html",
-    "href": "01 History and Ethics/01 The Singularity/index.html",
-    "title": "The Singularity",
-    "section": "",
-    "text": "The Technological Singularity, often referred to as “the singularity” is a hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization 1.\nWhile there are many versions of the singularity hypothesis, most involve the notion of an artificially intelligence program entering a cycle of self-improvement where the end result is a superintelligence, far more capable that any human.\nRapid take off scenario\nGentle take off scenario"
-  },
-  {
-    "objectID": "01 History and Ethics/01 The Singularity/index.html#references",
-    "href": "01 History and Ethics/01 The Singularity/index.html#references",
-    "title": "The Singularity",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "01 History and Ethics/01 The Singularity/index.html#footnotes",
-    "href": "01 History and Ethics/01 The Singularity/index.html#footnotes",
-    "title": "The Singularity",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nWikipedia - Technological Singularity↩︎\nJohn von Neuman↩︎\nUlam, Stanislaw (May 1958). “Tribute to John von Neumann“↩︎\nVernor Vinge in 2006↩︎\nThe Coming Technological Singularity: How to Survive in the Post-Human Era↩︎"
-  },
-  {
-    "objectID": "01 History and Ethics/01 The Singularity/index.html#the-concept",
-    "href": "01 History and Ethics/01 The Singularity/index.html#the-concept",
-    "title": "The Singularity",
-    "section": "",
-    "text": "The Technological Singularity, often referred to as “the singularity” is a hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization 1.\nWhile there are many versions of the singularity hypothesis, most involve the notion of an artificially intelligence program entering a cycle of self-improvement where the end result is a superintelligence, far more capable that any human.\nRapid take off scenario\nGentle take off scenario"
-  },
-  {
-    "objectID": "01 History and Ethics/01 The Singularity/index.html#the-history-of-the-term",
-    "href": "01 History and Ethics/01 The Singularity/index.html#the-history-of-the-term",
-    "title": "The Singularity",
-    "section": "The History of the Term",
-    "text": "The History of the Term\nThe history of the concept and term is a bit murky, but the computer scientist John von Neuman may have been the first person to describe the concept of a technological singularity.\n\n\n\nJohn von Neuman 2\n\n\nJohn von Neumann is credited by Stanislaw Ulam with having discussed “the accelerating progress of technology and changes in the mode of human life, which gives the appearance of approaching some essential singularity in the history of the race beyond which human affairs, as we know them, could not continue“. 3 This discussion would have occurred no later than the mid-1950’s as von Neumann died on February 8, 1957.\nThe mathematics professor, computer scientist, and science fiction writer Vernor Vinge is generally credited with coining the term “the Technological Singularity”.\n\n\n\nVernor Vinge in 2006 4\n\n\nIn 1993, Vinge wrote the article “The Coming Technological Singularity: How to Survive the Post-Human Era”, which he presented at the VISION-21 Symposium sponsored by NASA Lewis Research Center and the Ohio Aerospace Institute, March 30-31, 1993.5\nThe abstract of the paper begins: “Within thirty years, we will have the technological means to create superhuman intelligence. Shortly after, the human era will be ended.”\nIn this 1993 paper, he goes on to write: “I believe that the creation of greater than human intelligence will occur during the next thirty years. … let me more specific: I’ll be surprised if this event occurs before 2005 or after 2030.”\nOne of the figures most closely associated with the singularity concept is the inventor and futurist Raymond Kurzweil. Ray Kurzweil has made significant contributions in optical character recognition, text-to-speech synthesis, speech recognition, and musical synthesizers, among other fields.\n\n\n\nRay Kurzweil in 2017\n\n\nKurzweil is noted for his Law of Accelerating Returns an extension of “Moore’s Law”.\nOne innovation that separates Kurzweil from most other futurists is that he has attempted to use his “Law of Accelerating Returns” as a way of systematizing his predictions concerning future technological advancements.\nIn his 1999 book The Age of Spiritual Machines Kurzweil predicted that the Turing Test would be passed by 2029 Link to Purchase - Amazon.\nIn his 2005 book The Singularity is Near Kurzweil predicted that the singularity will be achieved by 2045 Link to Purchase - Amazon.\nIn his 2024 book The Singularity is Nearer” Kurzweil reiterates his belief that these predictions are on-track to become reality in the specified timeframes Link to Purchase - Amazon."
-  },
-  {
-    "objectID": "01 History and Ethics/02 Moore's Law/index.html",
-    "href": "01 History and Ethics/02 Moore's Law/index.html",
-    "title": "Moore’s Law",
-    "section": "",
-    "text": "Moore’s law is the observation that the number of transistors in an integrated circuit (IC) doubles about every two years 1.\nMoore’s law is an observation and projection of a historical trends, rather than a law of physics.\nMoore’s Law is named after Gordon Moore (1929-2023), the co-founder and former CEO of Intel who in 1965 noted that transistor counts in integrate circuits were doubling approximately every year and predicted that such doubling would continue for at least a decade. In 1975 he modified his forecast to a doubling of component count every two years.\nWe appear to be nearing the ultimate physical limits of Moore’s Law as components approach the atomic scale, but there is little consensus on when the “law” will end.\nIn 50 years (1970-2020) the number of transistors per microchip increased nearly 50,000,000 (50 million) times – from 1,000 to 50 billion.\nOver 30 years, from 1993 – 2023, supercomputer speed increased from 60 gigaFLOPS (60 billion floating point operations per second) to 1.1 exaFLOPS (1.1 billion billion floating point operations per second) a nearly 20 million fold increase in speed."
-  },
-  {
-    "objectID": "01 History and Ethics/02 Moore's Law/index.html#footnotes",
-    "href": "01 History and Ethics/02 Moore's Law/index.html#footnotes",
-    "title": "Moore’s Law",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nWikipedia - Moore’s Law↩︎"
-  },
-  {
-    "objectID": "01 Introduction/04 Kurzweil's Law/index.html",
-    "href": "01 Introduction/04 Kurzweil's Law/index.html",
-    "title": "Kurzweil’s Law of Accelerating Returns",
-    "section": "",
-    "text": "In his 1999 book “The Age of Spiritual Machines” Kurzweil observed that the rate of change of evolutionary systems (systems in which the next generation is based on the previous generation) tend to increase exponentially. He called this observation the “Law of Accelerating Returns”.\nApplied to computing, Kurzweil’s “Law of Accelerating Returns” extends the concept of the exponential doubling of computing speed to various information processing technologies extending back in time to at least the 1890 US census.\nKurzweil identified five information processing technologies over this time period:\n\nMechanical (1890 – 1935)\n\n1900 Analytical Engine\n1908 Hollerith Tabulator\n1911 Monroe Calculator\n1919 IBM Tabulator\n1928 National Ellis 3000\n\nVideos:\n\nFalse Dawn: The Babbage Engine\nComputer History: Punch Cards Historical Overview -IBM Remington Rand UNIVAC - History 1900’s-1960’s\n\nRelay (1935-1942)\n\n1939 Zuse 2\n1940 Bell Calculator Model 1\n1941 Zuse 3\n\nVideos:\n\nComputer History: Dr. Konrad Zuse, Computer Pioneer and the Z Computers (Z3) (Germany 1935-1945)\n\nVacuum tube (1942-1960)\n\n1943 Colossus\n1946 ENIAC\n1954 EDVAC\nand others…\n\nVideos:\n\nWhy The First Computers Were Made Out Of Light Bulbs\n\nTransistor (1960-1973)\n\n1958 Datamatic 1000\n1958 Univac II\n1959 Mobidic\n1959 IBM 7090\n1960 DEC PDP-1\n1962 Univac III\n1965 DEC PDP-8\n1966 IBM 360 Model 75\nand others…\n\nVideos:\n\nDEC PDP Minicomputer Collection at the Computer Museum of America\n\nIntegrated circuit (1973-present day)\n\n1968 DEC PDP-10\n1973 Intellec-8\n1976 DEC PDP-11 Model 70\n1977 Cray I\n1977 Apple II\n1979 DEC VAX 11Model 780\n1983 IBM AT-80286\n1984 Apple Macintosh\n1987 Apple Mac II\n1993 Pentium PC\nand others…\n\n\nKurzweil has used this “law” to estimate when the Turing Test would be passed and with the Singularity would occur.\n\n\n\nCalculations Per Second Per Constant Dollar"
-  },
-  {
-    "objectID": "01 Introduction/02 Moore's Law/index.html",
-    "href": "01 Introduction/02 Moore's Law/index.html",
-    "title": "Moore’s Law",
-    "section": "",
-    "text": "Moore’s law is the observation that the number of transistors in an integrated circuit (IC) doubles about every two years 1.\nMoore’s law is an observation and projection of a historical trends, rather than a law of physics.\nMoore’s Law is named after Gordon Moore (1929-2023), the co-founder and former CEO of Intel who in 1965 noted that transistor counts in integrate circuits were doubling approximately every year and predicted that such doubling would continue for at least a decade. In 1975 he modified his forecast to a doubling of component count every two years.\nWe appear to be nearing the ultimate physical limits of Moore’s Law as components approach the atomic scale, but there is little consensus on when the “law” will end.\nIn 50 years (1970-2020) the number of transistors per microchip increased nearly 50,000,000 (50 million) times – from 1,000 to 50 billion.\nOver 30 years, from 1993 – 2023, supercomputer speed increased from 60 gigaFLOPS (60 billion floating point operations per second) to 1.1 exaFLOPS (1.1 billion billion floating point operations per second) a nearly 20 million fold increase in speed."
-  },
-  {
-    "objectID": "01 Introduction/02 Moore's Law/index.html#footnotes",
-    "href": "01 Introduction/02 Moore's Law/index.html#footnotes",
-    "title": "Moore’s Law",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nWikipedia - Moore’s Law↩︎"
-  },
-  {
-    "objectID": "05 Neural Networks/03 Hadamard Product.html",
-    "href": "05 Neural Networks/03 Hadamard Product.html",
-    "title": "Hadamard Product",
-    "section": "",
-    "text": "Let \\(A\\) and \\(B\\) be two matrices of equal size. Then the Hadamard Product is the componentwise product of every \\(a_{ij}\\) and \\(b_{ij}\\)\n\nExample"
-  },
-  {
-    "objectID": "05 Neural Networks/equations/finalLayerError.html",
-    "href": "05 Neural Networks/equations/finalLayerError.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "\\[\\delta_j = \\left( a_j - y_j \\right) \\cdot a_j \\cdot \\left( 1 - a_j \\right)\\]"
-  },
-  {
-    "objectID": "05 Neural Networks/00 index.html",
-    "href": "05 Neural Networks/00 index.html",
-    "title": "Outline",
-    "section": "",
-    "text": "Outline"
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/01 Installing Prolog.html",
-    "href": "07 Logic/03 Prolog/01 Installing Prolog.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
-    "href": "07 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
-    "objectID": "06 Searching/01 A Game as a Search Space.html",
-    "href": "06 Searching/01 A Game as a Search Space.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "G\n\n\n\nA\n\nA\n\n\n\nB\n\nB\n\n\n\nA-&gt;B\n\n\n\n\n\nC\n\nC\n\n\n\nA-&gt;C\n\n\n\n\n\nD\n\nD\n\n\n\nA-&gt;D\n\n\n\n\n\nE\n\nE\n\n\n\nB-&gt;E\n\n\n\n\n\nF\n\nF\n\n\n\nB-&gt;F\n\n\n\n\n\nC-&gt;D\n\n\n\n\n\nG\n\nG\n\n\n\nC-&gt;G\n\n\n\n\n\nH\n\nH\n\n\n\nD-&gt;H\n\n\n\n\n\nI\n\nI\n\n\n\nD-&gt;I\n\n\n\n\n\nJ\n\nJ\n\n\n\nG-&gt;J\n\n\n\n\n\nM\n\nM\n\n\n\nJ-&gt;M\n\n\n\n\n\nK\n\nK\n\n\n\nI-&gt;K\n\n\n\n\n\nL\n\nL\n\n\n\nI-&gt;L\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A((A))--&gt;B((B))\n    A--&gt;C((C))\n    A--&gt;D((D))\n    B--&gt;E((E))\n    B--&gt;F((F))\n    C--&gt;G((G))\n    C--&gt;D\n    D--&gt;H((H))\n    D--&gt;I((I))\n    G--&gt;J((J))\n    J--&gt;M((M))\n    I--&gt;K((K))\n    I--&gt;L((L))\n\n    classDef commonStyle fill:#f9f,stroke:#333,stroke-width:2px;\n    class A,B commonStyle;"
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/03 Making Queries.html",
-    "href": "07 Logic/03 Prolog/03 Making Queries.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/03 Making Queries.html#first-program",
-    "href": "07 Logic/03 Prolog/03 Making Queries.html#first-program",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/02 First Program.html",
-    "href": "07 Logic/03 Prolog/02 First Program.html",
-    "title": "First Program",
-    "section": "",
-    "text": "Prolog is composed of three types of clauses: facts, rules, and queries. In this file we look at how to declare facts and rules inside a Prolog file."
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/02 First Program.html#overview",
-    "href": "07 Logic/03 Prolog/02 First Program.html#overview",
-    "title": "First Program",
-    "section": "",
-    "text": "Prolog is composed of three types of clauses: facts, rules, and queries. In this file we look at how to declare facts and rules inside a Prolog file."
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/02 First Program.html#declaring-facts",
-    "href": "07 Logic/03 Prolog/02 First Program.html#declaring-facts",
-    "title": "First Program",
-    "section": "Declaring Facts",
-    "text": "Declaring Facts\nCreate a file named family.pl.\nWe start by declaring facts in Prolog. To declare a fact, you simply define information about a single entity, or a relation between two entitites.\nTo declare a fact about one entity, it simply looks like you are calling a function in most langauges. To point out a few details, constants all start with a lowercase letter (such as jim and pam) and we end each line with a period.\nman(jim).       % jim is a man\nwoman(pam).     % pam is a woman\nwoman(cecelia). % cecelia is a woman\nman(phillip).   % phillip is a \nTo declare a relation between two entities, it looks like you are calling a function with two arguments.\nparent(jim, cecelia).   % jim is a parent of cecelia\nparent(pam, cecelia).   % pam is a parent of cecelia\nparent(jim, phillip).   % jim is a parent of phillip\nparent(pam, phillip).   % pam is a parent of phillip\nTo declare a rule, we use the notation conclusion :- condition\nmom(X,Y) :- parent(X, Y), woman(X).  % X is a mom of Y if X is a parent of Y and X is a woman\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter."
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/02 First Program.html#full-program",
-    "href": "07 Logic/03 Prolog/02 First Program.html#full-program",
-    "title": "First Program",
-    "section": "Full Program",
-    "text": "Full Program\nCombining the various pieces of code from above, we arrive at our final program. The next file will discuss how to make queries on this program.\nman(jim).       % jim is a man\nwoman(pam).     % pam is a woman\nwoman(cecelia). % cecelia is a woman\nman(phillip).   % phillip is a \n\nparent(jim, cecelia).   % jim is a parent of cecelia\nparent(pam, cecelia).   % pam is a parent of cecelia\nparent(jim, phillip).   % jim is a parent of phillip\nparent(pam, phillip).   % pam is a parent of phillip\n\n% declaring rules\nmom(X,Y) :- parent(X, Y), woman(X).  % X is a mom of Y if X is a parent of Y and X is a woman"
-  },
-  {
-    "objectID": "05 Neural Networks/equations/finalLayerErrorMatrix.html",
-    "href": "05 Neural Networks/equations/finalLayerErrorMatrix.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "\\[\\Delta = \\left( A - Y \\right) \\odot A \\odot ( 1 - A )\\]"
-  },
-  {
-    "objectID": "05 Neural Networks/04 Backpropagation.html",
-    "href": "05 Neural Networks/04 Backpropagation.html",
-    "title": "Backpropagation",
-    "section": "",
-    "text": "Background for the following:\n\ncapital letters are used for matrices while lowercase are used for individual nodes."
-  },
-  {
-    "objectID": "05 Neural Networks/04 Backpropagation.html#a-note-on-notations",
-    "href": "05 Neural Networks/04 Backpropagation.html#a-note-on-notations",
-    "title": "Backpropagation",
-    "section": "",
-    "text": "Background for the following:\n\ncapital letters are used for matrices while lowercase are used for individual nodes."
-  },
-  {
-    "objectID": "05 Neural Networks/04 Backpropagation.html#equation-1---final-layer-error",
-    "href": "05 Neural Networks/04 Backpropagation.html#equation-1---final-layer-error",
-    "title": "Backpropagation",
-    "section": "Equation 1 - Final Layer Error",
-    "text": "Equation 1 - Final Layer Error\nThe error at an individual node in the final layer of the network can be found using the equation:\n\\[\\delta_j = \\left( a_j - y_j \\right) \\cdot a_j \\cdot \\left( 1 - a_j \\right)\\]\nTo represent the error at every node in the final layer, we can use matrices.\n\\[\\Delta = \\left( A - Y \\right) \\odot A \\odot ( 1 - A )\\]\nwhere \\(1\\) represents a matrix of \\(1\\)s with equal dimensions as \\(A\\)."
-  },
-  {
-    "objectID": "05 Neural Networks/04 Backpropagation.html#equation-2---intermediate-layer-error",
-    "href": "05 Neural Networks/04 Backpropagation.html#equation-2---intermediate-layer-error",
-    "title": "Backpropagation",
-    "section": "Equation 2 - Intermediate Layer Error",
-    "text": "Equation 2 - Intermediate Layer Error\nThe error at an individual node in an intermediate layer \\(l\\) in terms of the next layer \\(l+1\\) can be found using the equation:\n\\[\\delta_j^l = \\left( \\displaystyle\\sum_{k} w_{kj}^{l+1} \\delta_k^{l+1} \\right) \\cdot a_j^l \\cdot \\left(1 - a_j^l \\right)\\]\nTo represent the error at every node in the intermediate layer \\(l\\), use can use matrices.\n\\[\\Delta^l = \\left( \\left( W^{l+1} \\right)^T \\cdot \\Delta^{l+1} \\right) \\odot A^l \\odot \\left(1 - A^l \\right)\\]\nwhere \\(1\\) represents a matrix of \\(1\\)s with equal dimensions as \\(A\\)."
-  },
-  {
-    "objectID": "05 Neural Networks/04 Backpropagation.html#equation-3---the-bias-gradient",
-    "href": "05 Neural Networks/04 Backpropagation.html#equation-3---the-bias-gradient",
-    "title": "Backpropagation",
-    "section": "Equation 3 - The Bias Gradient",
-    "text": "Equation 3 - The Bias Gradient\nWe refer to the rate of change of the cost with respect to the bias this as the bias gradient.\nMathematically, that is the partial derivative of our cost function with respect to our biases, or \\(\\dfrac{\\partial C}{\\partial b}\\).\nTo represent the value of the bias gradient with respect to a given node, we will use \\(\\nabla b_j\\).\nThe result is that the the bias gradient is just the error found at an individual node.\n\\[\\nabla b_j = \\delta_j\\]\n\nConsequence for Final Layer\nThis means that for any node in the final layer, we have\n\\[\\nabla b_j = (a_j - y_j) \\cdot (a_j) \\cdot (1 - a_j)\\]\nOr as a matrices\n\\[\\nabla B = (A - Y) \\odot A \\odot (1 - A)\\]\n\n\nConsequence for Intermediate Layers\nAlso for any node in an intermediate layer \\(l\\) we have\n\\[\\nabla b_j^l = \\]\nAs matrices,\n\\[\\nabla B =\\]"
-  },
-  {
-    "objectID": "05 Neural Networks/04 Backpropagation.html#equation-4---the-weight-gradient",
-    "href": "05 Neural Networks/04 Backpropagation.html#equation-4---the-weight-gradient",
-    "title": "Backpropagation",
-    "section": "Equation 4 - The Weight Gradient",
-    "text": "Equation 4 - The Weight Gradient"
-  },
-  {
-    "objectID": "01 Introduction/01 The Singularity/index.html",
-    "href": "01 Introduction/01 The Singularity/index.html",
-    "title": "The Singularity",
-    "section": "",
-    "text": "The Technological Singularity, often referred to as “the singularity” is a hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization 1.\nWhile there are many versions of the singularity hypothesis, most involve the notion of an artificially intelligence program entering a cycle of self-improvement where the end result is a superintelligence, far more capable that any human.\nRapid take off scenario\nGentle take off scenario"
-  },
-  {
-    "objectID": "01 Introduction/01 The Singularity/index.html#the-concept",
-    "href": "01 Introduction/01 The Singularity/index.html#the-concept",
-    "title": "The Singularity",
-    "section": "",
-    "text": "The Technological Singularity, often referred to as “the singularity” is a hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization 1.\nWhile there are many versions of the singularity hypothesis, most involve the notion of an artificially intelligence program entering a cycle of self-improvement where the end result is a superintelligence, far more capable that any human.\nRapid take off scenario\nGentle take off scenario"
-  },
-  {
-    "objectID": "01 Introduction/01 The Singularity/index.html#the-history-of-the-term",
-    "href": "01 Introduction/01 The Singularity/index.html#the-history-of-the-term",
-    "title": "The Singularity",
-    "section": "The History of the Term",
-    "text": "The History of the Term\nThe history of the concept and term is a bit murky, but the computer scientist John von Neuman may have been the first person to describe the concept of a technological singularity.\n\n\n\nJohn von Neuman 2\n\n\nJohn von Neumann is credited by Stanislaw Ulam with having discussed “the accelerating progress of technology and changes in the mode of human life, which gives the appearance of approaching some essential singularity in the history of the race beyond which human affairs, as we know them, could not continue“. 3 This discussion would have occurred no later than the mid-1950’s as von Neumann died on February 8, 1957.\nThe mathematics professor, computer scientist, and science fiction writer Vernor Vinge is generally credited with coining the term “the Technological Singularity”.\n\n\n\nVernor Vinge in 2006 4\n\n\nIn 1993, Vinge wrote the article “The Coming Technological Singularity: How to Survive the Post-Human Era”, which he presented at the VISION-21 Symposium sponsored by NASA Lewis Research Center and the Ohio Aerospace Institute, March 30-31, 1993.5\nThe abstract of the paper begins: “Within thirty years, we will have the technological means to create superhuman intelligence. Shortly after, the human era will be ended.”\nIn this 1993 paper, he goes on to write: “I believe that the creation of greater than human intelligence will occur during the next thirty years. … let me more specific: I’ll be surprised if this event occurs before 2005 or after 2030.”\nOne of the figures most closely associated with the singularity concept is the inventor and futurist Raymond Kurzweil. Ray Kurzweil has made significant contributions in optical character recognition, text-to-speech synthesis, speech recognition, and musical synthesizers, among other fields.\n\n\n\nRay Kurzweil in 2017\n\n\nKurzweil is noted for his Law of Accelerating Returns an extension of “Moore’s Law”.\nOne innovation that separates Kurzweil from most other futurists is that he has attempted to use his “Law of Accelerating Returns” as a way of systematizing his predictions concerning future technological advancements.\nIn his 1999 book The Age of Spiritual Machines Kurzweil predicted that the Turing Test would be passed by 2029 Link to Purchase - Amazon.\nIn his 2005 book The Singularity is Near Kurzweil predicted that the singularity will be achieved by 2045 Link to Purchase - Amazon.\nIn his 2024 book The Singularity is Nearer” Kurzweil reiterates his belief that these predictions are on-track to become reality in the specified timeframes Link to Purchase - Amazon."
-  },
-  {
-    "objectID": "01 Introduction/01 The Singularity/index.html#footnotes",
-    "href": "01 Introduction/01 The Singularity/index.html#footnotes",
-    "title": "The Singularity",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nWikipedia - Technological Singularity↩︎\nJohn von Neuman↩︎\nUlam, Stanislaw (May 1958). “Tribute to John von Neumann“↩︎\nVernor Vinge in 2006↩︎\nThe Coming Technological Singularity: How to Survive in the Post-Human Era↩︎"
-  },
-  {
-    "objectID": "01 Introduction/03 Turing Test/index.html",
-    "href": "01 Introduction/03 Turing Test/index.html",
-    "title": "The Turing Test",
-    "section": "",
-    "text": "In 1950, Alan Turing published a paper entitled Computing Machinery and Intelligence in which he described a test that he believed could be used to measure progress towards creating intelligent machines.\n\n\n\nAlan Turing - 1951\n\n\nThe goal of the Turing test, as it has come to be known, is to determine whether a machine acts in an intelligent manner.\nIn one version of the test, a human interrogator enters into a conversation with an entity (which may either be another human or a machine) via a computer terminal. The human and the entity are not allowed to see one another or communicate in any way, other than by typed messages. The goal of the human interrogator is to determine whether he or she is, in fact, communicating with another human or with a machine.\nIf the human cannot reliably determine the difference between the two, we conclude that the machine is exhibiting intelligent behavior.\nTest yourself with Human or Not?, a game that mimics the Turing Test."
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html",
-    "title": "Kurzweil’s Estimates",
-    "section": "",
-    "text": "To estimate when human level intelligence in computers would be achieved – and thus when the Turing Test would be passed, Kurzweil first estimated the information processing capacity of the human brain.\nHe then used his “Law of Accelerating Returns” to estimate when computers would have roughly the same level of information processing power as the human brain – when we would have ‘hardware’ powerful enough to simulate a human brain in real time.\nHis basic assumption was that the transmission of one ‘signal’ across a synaptic gap between neurons (the most fundamental operation of the brain) is roughly equivalent to one floating point operation – a single instruction, which is the most fundamental operation of a computer.\n\n\n\nParts of a neuron\n\n\n\n\n\nIn addition to the hardware necessary to achieve human level intelligence, there is also the question of the software.\nSince it is pretty much impossible to predict when various AI algorithms will be discovered, Kurzweil reasoned that the most obvious “brute force” path to achieving human intelligence in a computer would be to create a digital copy of a human brain.\nHe noted that progress in medical imaging technology (e.g., CT scanners, MRIs) is following his “Law of Accelerating Returns” in that scanning resolution is improving exponentially with time and would eventually reach the level of being able to resolve the individual synapses of the human brain.\nThus, at some point, we should have the hardware and software to “upload” and simulate a human in real time on a computer, and thereby pass the Turing Test\n\n\n\nThe human brain is estimated to contain approximately 100 billion neurons, or \\(1 \\times 10^{11}\\) neurons 1.\nIt is estimated that each neuron is connected to 5,000 to 10,000, or \\(1 \\times 10^4\\) other neurons across synaptic gaps 2.\nThus, the human brain contains approximately 1 million billion or \\(1 \\times 10^{15}\\) synaptic connections:\n\\[ \\left( 1 \\times 10^{11} \\text{ neurons} \\right) \\times  \\left( 1 \\times 10^4 \\dfrac{\\text{synapses}}{\\text{neuron}} \\right) = 1 \\times 10^{15} \\text{ synaptic connections}\\]\nNeurons communicate with one another by passing neurochemicals (e. g., dopamine) across the synaptic gaps between their dendrites. Estimates of the average rate of speed with which neurons can “fire” (send a signal to the neurons they are connected to) vary widely, as some neurons may fire every few seconds while others may fire a few hundred times a second.\nIf we estimate the average neuron firing rate at 100 times per second (Kurzweil originally used 200), we end up with 100 million billion, or \\(1 * 10^{17}\\) “signals” that can be transmitted per second by the human brain.\nKurzweil predicted in 1999 that “prior to 2020” the faster supercomputers would have enough raw processing power to exceed that of the human brain. And if we take 100 million billion FLOPS as an accurate estimate of the processing power of the human brain, Kurzweil was correct. In June 2018, IBM’s Summit computer reached 122.3 million billion FLOPS (122.3 petaFLOPS).\n\n\n\nIBM’s Summit Components - Wikipedia\n\n\n\n\n\nKurzweil was less sure of when we would be able to scan a human brain and upload it. And he also recognized that there would be “overhead” in conducting a brain simulation, so he added a fudge factor of a decade, setting the deadline for human level intelligence in computers and passing the Turing test no later than 2029.\nOf course, these days no one really expects whole brain simulation / uploading to be the way human level intelligence in computers is reached, but Kurzweil’s general approach for predicting an outcome 30 years in the future makes some sense – and is certainly better than “guessing” a date (as one could argue Vernor Venge did)."
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#singularity",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#singularity",
-    "title": "Kurzweil’s Estimates",
-    "section": "Singularity",
-    "text": "Singularity"
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#turing-test",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#turing-test",
-    "title": "Kurzweil’s Estimates",
-    "section": "",
-    "text": "To estimate when human level intelligence in computers would be achieved – and thus when the Turing Test would be passed, Kurzweil first estimated the information processing capacity of the human brain.\nHe then used his “Law of Accelerating Returns” to estimate when computers would have roughly the same level of information processing power as the human brain – when we would have ‘hardware’ powerful enough to simulate a human brain in real time.\nHis basic assumption was that the transmission of one ‘signal’ across a synaptic gap between neurons (the most fundamental operation of the brain) is roughly equivalent to one floating point operation – a single instruction, which is the most fundamental operation of a computer.\nIn addition to the hardware necessary to achieve human level intelligence, there is also the question of the software.\nSince it is pretty much impossible to predict when various AI algorithms will be discovered, Kurzweil reasoned that the most obvious “brute force” path to achieving human intelligence in a computer would be to create a digital copy of a human brain.\nHe noted that progress in medical imaging technology (e.g., CT scanners, MRIs) is following his “Law of Accelerating Returns” in that scanning resolution is improving exponentially with time and would eventually reach the level of being able to resolve the individual synapses of the human brain.\nThus, at some point, we should have the hardware and software to “upload” and simulate a human in real time on a computer, and thereby pass the Turing Test\nThe human brain is estimated to contain approximately 100 billion neurons (1 * 1011). [A more recent estimate I’ve seen quoted online quite a bit is 86 billion.]\nIt is now estimated that each neuron is connected to 5,000 to 10,000 (1 * 104) other neurons across synaptic gaps. [Kurzweil used 1,000 in his original 1999 estimate.]\nThus, the human brain contains approximately 1 million billion or (1 * 1015) synaptic connections. [100 billion neurons (1 * 1011) X 10,000 synapses (1 * 104) per neuron]\nNeurons communicate with one another by passing neurochemicals (e. g., dopamine) across the synaptic gaps between their dendrites.\nEstimates of the average rate of speed with which neurons can “fire” (send a signal to the neurons they are connected to) vary widely, as some neurons may fire every few seconds while others may fire a few hundred times a second.\nIf we estimate the average neuron firing rate at 100 times per second [Kurzweil originally used 200], we end up with 100 million billion (1 * 1017) “signals” that can be transmitted per second by the human brain.\nKurzweil predicted in 1999 that “prior to 2020” the faster supercomputers would have enough raw processing power to exceed that of the human brain.\nAnd if we take 100 million billion FLOPS as an accurate estimate of the processing power of the human brain, Kurzweil was correct. In June 2018, IBM’s Summit computer reached 122.3 million billion FLOPS (122.3 petaFLOPS).\nKurzweil was less sure of when we would be able to scan a human brain and upload it. And he also recognized that there would be “overhead” in conducting a brain simulation, so he added a fudge factor of a decade, setting the deadline for human level intelligence in computers and passing the Turing test no later than 2029.\nOf course, these days no one really expects whole brain simulation / uploading to be the way human level intelligence in computers is reached, but Kurzweil’s general approach for predicting an outcome 30 years in the future makes some sense – and is certainly better than “guessing” a date (as one could argue Venor Venge did)."
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#turing-test-predictions",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#turing-test-predictions",
-    "title": "Kurzweil’s Estimates",
-    "section": "",
-    "text": "To estimate when human level intelligence in computers would be achieved – and thus when the Turing Test would be passed, Kurzweil first estimated the information processing capacity of the human brain.\nHe then used his “Law of Accelerating Returns” to estimate when computers would have roughly the same level of information processing power as the human brain – when we would have ‘hardware’ powerful enough to simulate a human brain in real time.\nHis basic assumption was that the transmission of one ‘signal’ across a synaptic gap between neurons (the most fundamental operation of the brain) is roughly equivalent to one floating point operation – a single instruction, which is the most fundamental operation of a computer.\n\n\n\nParts of a neuron\n\n\n\n\n\nIn addition to the hardware necessary to achieve human level intelligence, there is also the question of the software.\nSince it is pretty much impossible to predict when various AI algorithms will be discovered, Kurzweil reasoned that the most obvious “brute force” path to achieving human intelligence in a computer would be to create a digital copy of a human brain.\nHe noted that progress in medical imaging technology (e.g., CT scanners, MRIs) is following his “Law of Accelerating Returns” in that scanning resolution is improving exponentially with time and would eventually reach the level of being able to resolve the individual synapses of the human brain.\nThus, at some point, we should have the hardware and software to “upload” and simulate a human in real time on a computer, and thereby pass the Turing Test\n\n\n\nThe human brain is estimated to contain approximately 100 billion neurons, or \\(1 \\times 10^{11}\\) neurons 1.\nIt is estimated that each neuron is connected to 5,000 to 10,000, or \\(1 \\times 10^4\\) other neurons across synaptic gaps 2.\nThus, the human brain contains approximately 1 million billion or \\(1 \\times 10^{15}\\) synaptic connections:\n\\[ \\left( 1 \\times 10^{11} \\text{ neurons} \\right) \\times  \\left( 1 \\times 10^4 \\dfrac{\\text{synapses}}{\\text{neuron}} \\right) = 1 \\times 10^{15} \\text{ synaptic connections}\\]\nNeurons communicate with one another by passing neurochemicals (e. g., dopamine) across the synaptic gaps between their dendrites. Estimates of the average rate of speed with which neurons can “fire” (send a signal to the neurons they are connected to) vary widely, as some neurons may fire every few seconds while others may fire a few hundred times a second.\nIf we estimate the average neuron firing rate at 100 times per second (Kurzweil originally used 200), we end up with 100 million billion, or \\(1 * 10^{17}\\) “signals” that can be transmitted per second by the human brain.\nKurzweil predicted in 1999 that “prior to 2020” the faster supercomputers would have enough raw processing power to exceed that of the human brain. And if we take 100 million billion FLOPS as an accurate estimate of the processing power of the human brain, Kurzweil was correct. In June 2018, IBM’s Summit computer reached 122.3 million billion FLOPS (122.3 petaFLOPS).\n\n\n\nIBM’s Summit Components - Wikipedia\n\n\n\n\n\nKurzweil was less sure of when we would be able to scan a human brain and upload it. And he also recognized that there would be “overhead” in conducting a brain simulation, so he added a fudge factor of a decade, setting the deadline for human level intelligence in computers and passing the Turing test no later than 2029.\nOf course, these days no one really expects whole brain simulation / uploading to be the way human level intelligence in computers is reached, but Kurzweil’s general approach for predicting an outcome 30 years in the future makes some sense – and is certainly better than “guessing” a date (as one could argue Vernor Venge did)."
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#singularity-predictions",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#singularity-predictions",
-    "title": "Kurzweil’s Estimates",
-    "section": "Singularity Predictions",
-    "text": "Singularity Predictions\nKurzweil’s 2005 prediction that the singularity will be achieved by 2045 is equally straightforward and based directly on his “Law of Accelerating Returns”.\nGiven human level intelligence in computers by 2029, he simply extrapolated that intelligence would double every two years in accordance with the historic rate of increase in computing technology.\nSince 16 years would represent 8 doublings or a 256 fold increase, that is \\(2^8 = 256\\), in intelligence, Kurzweil reasoned that by 2045 humans will no longer be the dominate intellectual force on the planet and that progress driven by machines which double their intellectual capacity every two years, would far outstrip anything humans could hope to accomplish."
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#researchers-thoughts",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#researchers-thoughts",
-    "title": "Kurzweil’s Estimates",
-    "section": "Researcher’s Thoughts",
-    "text": "Researcher’s Thoughts\nDr. O’Neal has been one of the few computer scientists consistently presenting Kurzweil’s ideas to his students in his AI classes for the past 30+ years. He has felt that even if these predictions were unlikely to be proven true, the reasoning behind Kurzweil’s projections were fascinating in their own right, and the implications if he were correct were so profound that he wanted students to be aware of Kurzweil’s ideas.\nOver the last few years (2020-2025), things have dramatically changed. Vinge and Kurzweil have gone from the “fringe” to “brilliant visionaries”. Serious AI researchers, at the forefront of machine learning, are now frequently speaking about the likelihood of a technological singularity within a handful of years. There is also active debate as to whether current Large Language Models (LLMs) now pass the Turing Test. Anyone who has interacted with ChatGPT or CharacterAI must admit these systems are at least close to being able to use language and converse at the human level.\nThe initial public release of ChatGPT occurred on November 30, 2022. ChatGPT integrated a chat interface to GPT 3.5 for use with the general public.\n\n\n\n\n\n\nGPT - Generative Pre-trained Transformer\n\n\n\nGPT stands for Generative Pre-trained Transformer. Generative meaning that GPT can generate new results on the fly. Pre-trained meaning that the network was trained prior to public release. A Transformer is a type of neural network architecture.\n\n\nChatGTP can solve many problems that computer scientists and AI researchers have been working on for well over half a century with little success. Now, suddenly, its not just science fiction writers and “futurists” who are talking about the relatively near-term possibility of Artificial General Intelligence and the singularity, it is the AI researchers themselves who are sounding the alarms about a potentially existential crisis for the human race. Not one expected LLMs to be so good at so many things. These are the first truly “broad” AIs ever created – they can solve many types of problems.\nProgress was so quick. In just a few years we went from nothing to near-human level performance. After many decades of lots of effort and very little progress.There doesn’t appear to be any fundamental roadblocks to continued rapid advancement. And, in fact, capability appears to be directly correlated with increasing number of parameters (weights) and volume of training data. (I.e., we know how to continue scaling improvements.)\nNo one knows exactly what they know. There is a very real problem of “alignment”. Getting these systems to behave in ways we want them to.\nNo one truly knows the future, though as we have seen in this lecture extrapolating long-term trends such as Moore’s Law and Kurweil’s Law of Accelerating Returns can sometimes produce impressive results. The fact is the experts – those developing the technology – are clearly concerned, some might say “scared”.\nHumans may be a handful of years from developing a human-level Artificial General Intelligence (AGI). Will superintelligent AGI soon follow?\nThe Center for AI Safety realeased a statement on My 30th, 2023. Signed by many luminaries in the field of AI research, including:\n\nGeoffrey Hinton - Emeritus Professor of Computer Science, University of Toronto, 2024 Nobel Prize Winner in Physics\nDemis Hassabis - CEO, Google DeepMind\nSam Altman - CEO, OpenAI\nDario Amodei - CEO, Anthropic\nBill Gates - Gates Ventures\nIlya Sutskever - Co-Founder and Chief Scientist, OpenAI\nStuart Russell - Professor of Computer Science, UC Berkeley\nAnd many hundreds of other researchers\n\n\n\n\n\n\n\nCenter for AI Safety Statement - Issued May 30th, 2023 3\n\n\n\nThe one sentence statement reads:\nMitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.\n\n\nA note of caution: While we don’t currently see any roadblocks to continue progress along this path, as we will see in future lectures, AI researchers have made grand predictions about AI in the past that did NOT come to pass. Maybe we are just repeating the boom-bust hype cycle AI is known for."
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#chatgpt-release",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#chatgpt-release",
-    "title": "Kurzweil’s Estimates",
-    "section": "ChatGPT Release",
-    "text": "ChatGPT Release\nInitial public release of ChatGPT occurred on November 30, 2022.\nChatGPT integrated a chat interface to GPT 3.5 (and later GPT 4.0 on March 14, 2023)\nGPT stands for Generative Pre-trained Transformer Generative means that GPT can generate new results on the fly Pre-Trained means that the network was trained prior to public release A Transformer is a type of neural network architecture\nChatGPT is a type of neural network called a Large Language Model (LLMs)\nChatGTP can solve many problems that computer scientists and AI researchers have been working on for well over half a century with little success.\nNow, suddenly, its not just science fiction writers and “futurists” who are talking about the relatively near-term possibility of Artificial General Intelligence and the singularity, it is the AI researchers themselves who are sounding the alarms about a potentially existential crisis for the human race."
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#center-for-ai-safety",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#center-for-ai-safety",
-    "title": "Kurzweil’s Estimates",
-    "section": "Center for AI Safety",
-    "text": "Center for AI Safety\nIssued May 30th, 2023.\nThe one sentence statement reads: Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.\nSigned by many luminaries in the field of AI research, including: Geoffrey Hinton - Emeritus Professor of Computer Science, University of Toronto Demis Hassabis - CEO, Google DeepMind Sam Altman - CEO, OpenAI Dario Amodei - CEO, Anthropic Bill Gates - Gates Ventures Ilya Sutskever - Co-Founder and Chief Scientist, OpenAI Stuart Russell - Professor of Computer Science, UC Berkeley And many hundreds of other researchers"
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#center-for-ai-safety-statements",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#center-for-ai-safety-statements",
-    "title": "Kurzweil’s Estimates",
-    "section": "Center for AI Safety Statements",
-    "text": "Center for AI Safety Statements\n\n\n\n\n\n\nCenter for AI Safety Statement - Issued May 30th, 2023\n\n\n\nThe one sentence statement reads: Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.\n\n\nSigned by many luminaries in the field of AI research, including: Geoffrey Hinton - Emeritus Professor of Computer Science, University of Toronto Demis Hassabis - CEO, Google DeepMind Sam Altman - CEO, OpenAI Dario Amodei - CEO, Anthropic Bill Gates - Gates Ventures Ilya Sutskever - Co-Founder and Chief Scientist, OpenAI Stuart Russell - Professor of Computer Science, UC Berkeley And many hundreds of other researchers"
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#section",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#section",
-    "title": "Kurzweil’s Estimates",
-    "section": "",
-    "text": "The human brain is estimated to contain approximately 100 billion neurons (1 * 1011). [A more recent estimate I’ve seen quoted online quite a bit is 86 billion.]\nIt is now estimated that each neuron is connected to 5,000 to 10,000 (1 * 104) other neurons across synaptic gaps. [Kurzweil used 1,000 in his original 1999 estimate.]\nThus, the human brain contains approximately 1 million billion or (1 * 1015) synaptic connections. [100 billion neurons (1 * 1011) X 10,000 synapses (1 * 104) per neuron]\nNeurons communicate with one another by passing neurochemicals (e. g., dopamine) across the synaptic gaps between their dendrites.\nEstimates of the average rate of speed with which neurons can “fire” (send a signal to the neurons they are connected to) vary widely, as some neurons may fire every few seconds while others may fire a few hundred times a second.\nIf we estimate the average neuron firing rate at 100 times per second [Kurzweil originally used 200], we end up with 100 million billion (1 * 1017) “signals” that can be transmitted per second by the human brain.\nKurzweil predicted in 1999 that “prior to 2020” the faster supercomputers would have enough raw processing power to exceed that of the human brain.\nAnd if we take 100 million billion FLOPS as an accurate estimate of the processing power of the human brain, Kurzweil was correct. In June 2018, IBM’s Summit computer reached 122.3 million billion FLOPS (122.3 petaFLOPS).\nKurzweil was less sure of when we would be able to scan a human brain and upload it. And he also recognized that there would be “overhead” in conducting a brain simulation, so he added a fudge factor of a decade, setting the deadline for human level intelligence in computers and passing the Turing test no later than 2029.\nOf course, these days no one really expects whole brain simulation / uploading to be the way human level intelligence in computers is reached, but Kurzweil’s general approach for predicting an outcome 30 years in the future makes some sense – and is certainly better than “guessing” a date (as one could argue Venor Venge did)."
-  },
-  {
-    "objectID": "01 Introduction/05 Kurzweil's Estimates/index.html#footnotes",
-    "href": "01 Introduction/05 Kurzweil's Estimates/index.html#footnotes",
-    "title": "Kurzweil’s Estimates",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nA more recent estimate is 86 billion.↩︎\nKurzweil used 1,000 in his original 1999 estimate.↩︎\nCenter for AI Safety↩︎"
-  },
-  {
-    "objectID": "02 Foundations/01 Terms and Research Topics/index.html",
-    "href": "02 Foundations/01 Terms and Research Topics/index.html",
-    "title": "Terms and Research Topics",
-    "section": "",
-    "text": "Artificial Intelligence (AI) - a branch of computer science that has as its goal the construction of a general-purpose intelligence – of constructing machines that are capable of doing all of the things which, at the present time, people are better (paraphrased from Elaine Rich and Kevin Knight). The term “AI” is now generally used when talking about programs that achieve, or attempt to achieve, human-level performance in a very narrow problem domain (e.g., playing a particular game such as chess, or speech synthesis, or image recognition).\nArtificial General Intelligence (AGI) - either:\n\nPrograms that achieve, or attempt to achieve, human-level performance across many different problem domains. By this definition Large Language Models (LLMs) may be thought of as attempting AGI. [This is the AGI definition I use.]\nPrograms that surpass human-level performance across many (if not all) problem domains. No existing program meet this definition. [Your professor tends to use the term “Artificial Superintelligent” or ASI when discussing such programs.]"
-  },
-  {
-    "objectID": "02 Foundations/01 Terms and Research Topics/index.html#terms",
-    "href": "02 Foundations/01 Terms and Research Topics/index.html#terms",
-    "title": "Terms and Research Topics",
-    "section": "",
-    "text": "Artificial Intelligence (AI) - a branch of computer science that has as its goal the construction of a general-purpose intelligence – of constructing machines that are capable of doing all of the things which, at the present time, people are better (paraphrased from Elaine Rich and Kevin Knight). The term “AI” is now generally used when talking about programs that achieve, or attempt to achieve, human-level performance in a very narrow problem domain (e.g., playing a particular game such as chess, or speech synthesis, or image recognition).\nArtificial General Intelligence (AGI) - either:\n\nPrograms that achieve, or attempt to achieve, human-level performance across many different problem domains. By this definition Large Language Models (LLMs) may be thought of as attempting AGI. [This is the AGI definition I use.]\nPrograms that surpass human-level performance across many (if not all) problem domains. No existing program meet this definition. [Your professor tends to use the term “Artificial Superintelligent” or ASI when discussing such programs.]"
-  },
-  {
-    "objectID": "02 Foundations/01 Terms and Research Topics/index.html#various-research-topics",
-    "href": "02 Foundations/01 Terms and Research Topics/index.html#various-research-topics",
-    "title": "Terms and Research Topics",
-    "section": "Various Research Topics",
-    "text": "Various Research Topics\n\nComputer Vision - enabling computers to see and recognize objects in the real world. For example, recognize humans from multiple angles with various lighting conditions; recognize individual humans despite different clothes, hairstyles, facial hair, etc.; recognize common non-human objects (e.g., cats, cars, tables, chairs, traffic signs); recognize artwork and the 2-D representations of the 3-D objects depicted therein.\nConverse fluently in human languages, such as English\n\nASR (Automated Speech Recognition) – converting verbal speech into written text\nTTS (Text to Speech Generation) – converting written text into verbal speech\nNLU (Natural Language Understanding) – “understanding” the topic of conversation\n\nNatural Language Translation – translate between different human languages\n\nWritten and spoken\nReal-time and off-line\n\nGame playing\n\nStrategy games – Checkers, Chess, Go\nKnowledge / word games – Jeopardy!\n\nPlan and reason the way people do\n\nProblem solving\nPlanning\nLearning\n\nDisplay creativity, curiosity, and discover new knowledge\nDrive a car"
-  },
-  {
-    "objectID": "02 Foundations/02 Fictional AI/index.html",
-    "href": "02 Foundations/02 Fictional AI/index.html",
-    "title": "Fictional AI",
-    "section": "",
-    "text": "One of the best examples of an AGI in fiction is the HAL 9000 Computer from the 1968 movie “2001: A Space Odyssey” by Stanley Kubrick and Arthur C. Clarke [sci-fi writer, scientist, first person to realize the significance of geosynchronous orbit]"
-  },
-  {
-    "objectID": "02 Foundations/02 Fictional AI/index.html#hal---2001-a-space-odyssey",
-    "href": "02 Foundations/02 Fictional AI/index.html#hal---2001-a-space-odyssey",
-    "title": "Fictional AI",
-    "section": "",
-    "text": "One of the best examples of an AGI in fiction is the HAL 9000 Computer from the 1968 movie “2001: A Space Odyssey” by Stanley Kubrick and Arthur C. Clarke [sci-fi writer, scientist, first person to realize the significance of geosynchronous orbit]"
-  },
-  {
-    "objectID": "02 Foundations/02 Fictional AI/index.html#apple-knowledge-navigator",
-    "href": "02 Foundations/02 Fictional AI/index.html#apple-knowledge-navigator",
-    "title": "Fictional AI",
-    "section": "Apple Knowledge Navigator",
-    "text": "Apple Knowledge Navigator\nAnother prescient depiction of AI/AGI was released by Apple Computer in 1987 – set approximately 25 years in the future: circa 2010. Predicted innovations in this six minute video include: portable “laptop” computers with flat-screen touch-sensitive color displays, wireless networking, a version of the internet, video conferencing, small solid-state storage devices. And a “Knowledge Navigator”…"
-  },
-  {
-    "objectID": "02 Foundations/02 Fictional AI/index.html#knowledge-navigator",
-    "href": "02 Foundations/02 Fictional AI/index.html#knowledge-navigator",
-    "title": "Fictional AI",
-    "section": "Knowledge Navigator",
-    "text": "Knowledge Navigator\nAnother prescient depiction of AI/AGI was released by Apple Computer in 1987 – set approximately 25 years in the future: circa 2010. Predicted innovations in this six minute video include: portable “laptop” computers with flat-screen touch-sensitive color displays, wireless networking, a version of the internet, video conferencing, small solid-state storage devices. And a “Knowledge Navigator”…"
-  },
-  {
-    "objectID": "02 Foundations/02 Fictional AI/index.html#knowledge-navigator---apple",
-    "href": "02 Foundations/02 Fictional AI/index.html#knowledge-navigator---apple",
-    "title": "Fictional AI",
-    "section": "Knowledge Navigator - Apple",
-    "text": "Knowledge Navigator - Apple\nAnother prescient depiction of AI/AGI was released by Apple Computer in 1987 – set approximately 25 years in the future: circa 2010. Predicted innovations in this six minute video include: portable “laptop” computers with flat-screen touch-sensitive color displays, wireless networking, a version of the internet, video conferencing, small solid-state storage devices. And a “Knowledge Navigator”…"
-  },
-  {
     "objectID": "02 Foundations/03 LLM Capabilities/index.html",
     "href": "02 Foundations/03 LLM Capabilities/index.html",
     "title": "LLM Capabilities",
@@ -599,20 +183,6 @@
     "title": "LLM Capabilities",
     "section": "Prounoun Disabiguation Problem",
     "text": "Prounoun Disabiguation Problem"
-  },
-  {
-    "objectID": "02 Foundations/03 LLM Capabilities/index.html#appearace-of",
-    "href": "02 Foundations/03 LLM Capabilities/index.html#appearace-of",
-    "title": "LLM Capabilities",
-    "section": "Appearace of",
-    "text": "Appearace of"
-  },
-  {
-    "objectID": "02 Foundations/03 LLM Capabilities/index.html#appearace-of-common-s",
-    "href": "02 Foundations/03 LLM Capabilities/index.html#appearace-of-common-s",
-    "title": "LLM Capabilities",
-    "section": "Appearace of Common S",
-    "text": "Appearace of Common S"
   },
   {
     "objectID": "02 Foundations/03 LLM Capabilities/index.html#appearace-of-common-sense-knowledge",
@@ -650,13 +220,6 @@
     "text": "Generate Code"
   },
   {
-    "objectID": "02 Foundations/03 LLM Capabilities/index.html#converse-with",
-    "href": "02 Foundations/03 LLM Capabilities/index.html#converse-with",
-    "title": "LLM Capabilities",
-    "section": "Converse with",
-    "text": "Converse with"
-  },
-  {
     "objectID": "02 Foundations/03 LLM Capabilities/index.html#converse-at-near-human-level",
     "href": "02 Foundations/03 LLM Capabilities/index.html#converse-at-near-human-level",
     "title": "LLM Capabilities",
@@ -671,25 +234,18 @@
     "text": "Solve Math problems"
   },
   {
-    "objectID": "02 Foundations/03 LLM Capabilities/index.html#score",
-    "href": "02 Foundations/03 LLM Capabilities/index.html#score",
-    "title": "LLM Capabilities",
-    "section": "Score",
-    "text": "Score"
-  },
-  {
-    "objectID": "02 Foundations/03 LLM Capabilities/index.html#score-atnear",
-    "href": "02 Foundations/03 LLM Capabilities/index.html#score-atnear",
-    "title": "LLM Capabilities",
-    "section": "Score at/near",
-    "text": "Score at/near"
-  },
-  {
     "objectID": "02 Foundations/03 LLM Capabilities/index.html#score-atnear-best-human-level-on-standardized-tests",
     "href": "02 Foundations/03 LLM Capabilities/index.html#score-atnear-best-human-level-on-standardized-tests",
     "title": "LLM Capabilities",
     "section": "Score at/near “Best Human Level” on Standardized Tests",
     "text": "Score at/near “Best Human Level” on Standardized Tests"
+  },
+  {
+    "objectID": "02 Foundations/03 LLM Capabilities/index.html#consume-multimodal-content",
+    "href": "02 Foundations/03 LLM Capabilities/index.html#consume-multimodal-content",
+    "title": "LLM Capabilities",
+    "section": "Consume Multimodal Content",
+    "text": "Consume Multimodal Content"
   },
   {
     "objectID": "02 Foundations/03 LLM Capabilities/index.html#upcoming-models",
@@ -699,11 +255,98 @@
     "text": "Upcoming Models"
   },
   {
-    "objectID": "02 Foundations/03 LLM Capabilities/index.html#consume-multimodal-content",
-    "href": "02 Foundations/03 LLM Capabilities/index.html#consume-multimodal-content",
-    "title": "LLM Capabilities",
-    "section": "Consume Multimodal Content",
-    "text": "Consume Multimodal Content"
+    "objectID": "02 Foundations/01 Terms and Research Topics/index.html",
+    "href": "02 Foundations/01 Terms and Research Topics/index.html",
+    "title": "Terms and Research Topics",
+    "section": "",
+    "text": "Artificial Intelligence (AI) - a branch of computer science that has as its goal the construction of a general-purpose intelligence – of constructing machines that are capable of doing all of the things which, at the present time, people are better (paraphrased from Elaine Rich and Kevin Knight). The term “AI” is now generally used when talking about programs that achieve, or attempt to achieve, human-level performance in a very narrow problem domain (e.g., playing a particular game such as chess, or speech synthesis, or image recognition).\nArtificial General Intelligence (AGI) - either:\n\nPrograms that achieve, or attempt to achieve, human-level performance across many different problem domains. By this definition Large Language Models (LLMs) may be thought of as attempting AGI. [This is the AGI definition I use.]\nPrograms that surpass human-level performance across many (if not all) problem domains. No existing program meet this definition. [Your professor tends to use the term “Artificial Superintelligent” or ASI when discussing such programs.]"
+  },
+  {
+    "objectID": "02 Foundations/01 Terms and Research Topics/index.html#terms",
+    "href": "02 Foundations/01 Terms and Research Topics/index.html#terms",
+    "title": "Terms and Research Topics",
+    "section": "",
+    "text": "Artificial Intelligence (AI) - a branch of computer science that has as its goal the construction of a general-purpose intelligence – of constructing machines that are capable of doing all of the things which, at the present time, people are better (paraphrased from Elaine Rich and Kevin Knight). The term “AI” is now generally used when talking about programs that achieve, or attempt to achieve, human-level performance in a very narrow problem domain (e.g., playing a particular game such as chess, or speech synthesis, or image recognition).\nArtificial General Intelligence (AGI) - either:\n\nPrograms that achieve, or attempt to achieve, human-level performance across many different problem domains. By this definition Large Language Models (LLMs) may be thought of as attempting AGI. [This is the AGI definition I use.]\nPrograms that surpass human-level performance across many (if not all) problem domains. No existing program meet this definition. [Your professor tends to use the term “Artificial Superintelligent” or ASI when discussing such programs.]"
+  },
+  {
+    "objectID": "02 Foundations/01 Terms and Research Topics/index.html#various-research-topics",
+    "href": "02 Foundations/01 Terms and Research Topics/index.html#various-research-topics",
+    "title": "Terms and Research Topics",
+    "section": "Various Research Topics",
+    "text": "Various Research Topics\n\nComputer Vision - enabling computers to see and recognize objects in the real world. For example, recognize humans from multiple angles with various lighting conditions; recognize individual humans despite different clothes, hairstyles, facial hair, etc.; recognize common non-human objects (e.g., cats, cars, tables, chairs, traffic signs); recognize artwork and the 2-D representations of the 3-D objects depicted therein.\nConverse fluently in human languages, such as English\n\nASR (Automated Speech Recognition) – converting verbal speech into written text\nTTS (Text to Speech Generation) – converting written text into verbal speech\nNLU (Natural Language Understanding) – “understanding” the topic of conversation\n\nNatural Language Translation – translate between different human languages\n\nWritten and spoken\nReal-time and off-line\n\nGame playing\n\nStrategy games – Checkers, Chess, Go\nKnowledge / word games – Jeopardy!\n\nPlan and reason the way people do\n\nProblem solving\nPlanning\nLearning\n\nDisplay creativity, curiosity, and discover new knowledge\nDrive a car"
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/02 First Program.html",
+    "href": "07 Logic/03 Prolog/02 First Program.html",
+    "title": "First Program",
+    "section": "",
+    "text": "Prolog is composed of three types of clauses: facts, rules, and queries. In this file we look at how to declare facts and rules inside a Prolog file."
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/02 First Program.html#overview",
+    "href": "07 Logic/03 Prolog/02 First Program.html#overview",
+    "title": "First Program",
+    "section": "",
+    "text": "Prolog is composed of three types of clauses: facts, rules, and queries. In this file we look at how to declare facts and rules inside a Prolog file."
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/02 First Program.html#declaring-facts",
+    "href": "07 Logic/03 Prolog/02 First Program.html#declaring-facts",
+    "title": "First Program",
+    "section": "Declaring Facts",
+    "text": "Declaring Facts\nCreate a file named family.pl.\nWe start by declaring facts in Prolog. To declare a fact, you simply define information about a single entity, or a relation between two entitites.\nTo declare a fact about one entity, it simply looks like you are calling a function in most langauges. To point out a few details, constants all start with a lowercase letter (such as jim and pam) and we end each line with a period.\nman(jim).       % jim is a man\nwoman(pam).     % pam is a woman\nwoman(cecelia). % cecelia is a woman\nman(phillip).   % phillip is a \nTo declare a relation between two entities, it looks like you are calling a function with two arguments.\nparent(jim, cecelia).   % jim is a parent of cecelia\nparent(pam, cecelia).   % pam is a parent of cecelia\nparent(jim, phillip).   % jim is a parent of phillip\nparent(pam, phillip).   % pam is a parent of phillip\nTo declare a rule, we use the notation conclusion :- condition\nmom(X,Y) :- parent(X, Y), woman(X).  % X is a mom of Y if X is a parent of Y and X is a woman\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter."
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/02 First Program.html#full-program",
+    "href": "07 Logic/03 Prolog/02 First Program.html#full-program",
+    "title": "First Program",
+    "section": "Full Program",
+    "text": "Full Program\nCombining the various pieces of code from above, we arrive at our final program. The next file will discuss how to make queries on this program.\nman(jim).       % jim is a man\nwoman(pam).     % pam is a woman\nwoman(cecelia). % cecelia is a woman\nman(phillip).   % phillip is a \n\nparent(jim, cecelia).   % jim is a parent of cecelia\nparent(pam, cecelia).   % pam is a parent of cecelia\nparent(jim, phillip).   % jim is a parent of phillip\nparent(pam, phillip).   % pam is a parent of phillip\n\n% declaring rules\nmom(X,Y) :- parent(X, Y), woman(X).  % X is a mom of Y if X is a parent of Y and X is a woman"
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/03 Making Queries.html",
+    "href": "07 Logic/03 Prolog/03 Making Queries.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/03 Making Queries.html#first-program",
+    "href": "07 Logic/03 Prolog/03 Making Queries.html#first-program",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
+  },
+  {
+    "objectID": "06 Searching/01 A Game as a Search Space.html",
+    "href": "06 Searching/01 A Game as a Search Space.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "G\n\n\n\nA\n\nA\n\n\n\nB\n\nB\n\n\n\nA-&gt;B\n\n\n\n\n\nC\n\nC\n\n\n\nA-&gt;C\n\n\n\n\n\nD\n\nD\n\n\n\nA-&gt;D\n\n\n\n\n\nE\n\nE\n\n\n\nB-&gt;E\n\n\n\n\n\nF\n\nF\n\n\n\nB-&gt;F\n\n\n\n\n\nC-&gt;D\n\n\n\n\n\nG\n\nG\n\n\n\nC-&gt;G\n\n\n\n\n\nH\n\nH\n\n\n\nD-&gt;H\n\n\n\n\n\nI\n\nI\n\n\n\nD-&gt;I\n\n\n\n\n\nJ\n\nJ\n\n\n\nG-&gt;J\n\n\n\n\n\nM\n\nM\n\n\n\nJ-&gt;M\n\n\n\n\n\nK\n\nK\n\n\n\nI-&gt;K\n\n\n\n\n\nL\n\nL\n\n\n\nI-&gt;L\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A((A))--&gt;B((B))\n    A--&gt;C((C))\n    A--&gt;D((D))\n    B--&gt;E((E))\n    B--&gt;F((F))\n    C--&gt;G((G))\n    C--&gt;D\n    D--&gt;H((H))\n    D--&gt;I((I))\n    G--&gt;J((J))\n    J--&gt;M((M))\n    I--&gt;K((K))\n    I--&gt;L((L))\n\n    classDef commonStyle fill:#f9f,stroke:#333,stroke-width:2px;\n    class A,B commonStyle;"
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/01 Installing Prolog.html",
+    "href": "07 Logic/03 Prolog/01 Installing Prolog.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
+    "href": "07 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "CSC 475 AI\nAssignments:\n\nOthello",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "02 Foundations/04 Alignment/index.html#three-laws-of-robotics",
@@ -725,5 +368,82 @@
     "title": "Alignment",
     "section": "Reinforcement Learning with Human Feedback",
     "text": "Reinforcement Learning with Human Feedback"
+  },
+  {
+    "objectID": "02 Foundations/02 Fictional AI/index.html",
+    "href": "02 Foundations/02 Fictional AI/index.html",
+    "title": "Fictional AI",
+    "section": "",
+    "text": "One of the best examples of an AGI in fiction is the HAL 9000 Computer from the 1968 movie “2001: A Space Odyssey” by Stanley Kubrick and Arthur C. Clarke [sci-fi writer, scientist, first person to realize the significance of geosynchronous orbit]"
+  },
+  {
+    "objectID": "02 Foundations/02 Fictional AI/index.html#hal---2001-a-space-odyssey",
+    "href": "02 Foundations/02 Fictional AI/index.html#hal---2001-a-space-odyssey",
+    "title": "Fictional AI",
+    "section": "",
+    "text": "One of the best examples of an AGI in fiction is the HAL 9000 Computer from the 1968 movie “2001: A Space Odyssey” by Stanley Kubrick and Arthur C. Clarke [sci-fi writer, scientist, first person to realize the significance of geosynchronous orbit]"
+  },
+  {
+    "objectID": "02 Foundations/02 Fictional AI/index.html#knowledge-navigator---apple",
+    "href": "02 Foundations/02 Fictional AI/index.html#knowledge-navigator---apple",
+    "title": "Fictional AI",
+    "section": "Knowledge Navigator - Apple",
+    "text": "Knowledge Navigator - Apple\nAnother prescient depiction of AI/AGI was released by Apple Computer in 1987 – set approximately 25 years in the future: circa 2010. Predicted innovations in this six minute video include: portable “laptop” computers with flat-screen touch-sensitive color displays, wireless networking, a version of the internet, video conferencing, small solid-state storage devices. And a “Knowledge Navigator”…"
+  },
+  {
+    "objectID": "05 Neural Networks/00 index.html",
+    "href": "05 Neural Networks/00 index.html",
+    "title": "Outline",
+    "section": "",
+    "text": "Outline"
+  },
+  {
+    "objectID": "05 Neural Networks/equations/finalLayerError.html",
+    "href": "05 Neural Networks/equations/finalLayerError.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "\\[\\delta_j = \\left( a_j - y_j \\right) \\cdot a_j \\cdot \\left( 1 - a_j \\right)\\]"
+  },
+  {
+    "objectID": "05 Neural Networks/03 Hadamard Product.html",
+    "href": "05 Neural Networks/03 Hadamard Product.html",
+    "title": "Hadamard Product",
+    "section": "",
+    "text": "Let \\(A\\) and \\(B\\) be two matrices of equal size. Then the Hadamard Product is the componentwise product of every \\(a_{ij}\\) and \\(b_{ij}\\)\n\nExample"
+  },
+  {
+    "objectID": "01 Introduction/01 The Singularity/index.html",
+    "href": "01 Introduction/01 The Singularity/index.html",
+    "title": "The Singularity",
+    "section": "",
+    "text": "The Technological Singularity, often referred to as “the singularity” is a hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization 1.\nWhile there are many versions of the singularity hypothesis, most involve the notion of an artificially intelligence program entering a cycle of self-improvement where the end result is a superintelligence, far more capable that any human.\nRapid take off scenario\nGentle take off scenario"
+  },
+  {
+    "objectID": "01 Introduction/01 The Singularity/index.html#the-concept",
+    "href": "01 Introduction/01 The Singularity/index.html#the-concept",
+    "title": "The Singularity",
+    "section": "",
+    "text": "The Technological Singularity, often referred to as “the singularity” is a hypothetical future point in time at which technological growth becomes uncontrollable and irreversible, resulting in unforeseeable changes to human civilization 1.\nWhile there are many versions of the singularity hypothesis, most involve the notion of an artificially intelligence program entering a cycle of self-improvement where the end result is a superintelligence, far more capable that any human.\nRapid take off scenario\nGentle take off scenario"
+  },
+  {
+    "objectID": "01 Introduction/01 The Singularity/index.html#the-history-of-the-term",
+    "href": "01 Introduction/01 The Singularity/index.html#the-history-of-the-term",
+    "title": "The Singularity",
+    "section": "The History of the Term",
+    "text": "The History of the Term\nThe history of the concept and term is a bit murky, but the computer scientist John von Neuman may have been the first person to describe the concept of a technological singularity.\n\n\n\nJohn von Neuman 2\n\n\nJohn von Neumann is credited by Stanislaw Ulam with having discussed “the accelerating progress of technology and changes in the mode of human life, which gives the appearance of approaching some essential singularity in the history of the race beyond which human affairs, as we know them, could not continue“. 3 This discussion would have occurred no later than the mid-1950’s as von Neumann died on February 8, 1957.\nThe mathematics professor, computer scientist, and science fiction writer Vernor Vinge is generally credited with coining the term “the Technological Singularity”.\n\n\n\nVernor Vinge in 2006 4\n\n\nIn 1993, Vinge wrote the article “The Coming Technological Singularity: How to Survive the Post-Human Era”, which he presented at the VISION-21 Symposium sponsored by NASA Lewis Research Center and the Ohio Aerospace Institute, March 30-31, 1993.5\nThe abstract of the paper begins: “Within thirty years, we will have the technological means to create superhuman intelligence. Shortly after, the human era will be ended.”\nIn this 1993 paper, he goes on to write: “I believe that the creation of greater than human intelligence will occur during the next thirty years. … let me more specific: I’ll be surprised if this event occurs before 2005 or after 2030.”\nOne of the figures most closely associated with the singularity concept is the inventor and futurist Raymond Kurzweil. Ray Kurzweil has made significant contributions in optical character recognition, text-to-speech synthesis, speech recognition, and musical synthesizers, among other fields.\n\n\n\nRay Kurzweil in 2017\n\n\nKurzweil is noted for his Law of Accelerating Returns an extension of “Moore’s Law”.\nOne innovation that separates Kurzweil from most other futurists is that he has attempted to use his “Law of Accelerating Returns” as a way of systematizing his predictions concerning future technological advancements.\nIn his 1999 book The Age of Spiritual Machines Kurzweil predicted that the Turing Test would be passed by 2029 Link to Purchase - Amazon.\nIn his 2005 book The Singularity is Near Kurzweil predicted that the singularity will be achieved by 2045 Link to Purchase - Amazon.\nIn his 2024 book The Singularity is Nearer” Kurzweil reiterates his belief that these predictions are on-track to become reality in the specified timeframes Link to Purchase - Amazon."
+  },
+  {
+    "objectID": "01 Introduction/01 The Singularity/index.html#footnotes",
+    "href": "01 Introduction/01 The Singularity/index.html#footnotes",
+    "title": "The Singularity",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWikipedia - Technological Singularity↩︎\nJohn von Neuman↩︎\nUlam, Stanislaw (May 1958). “Tribute to John von Neumann“↩︎\nVernor Vinge in 2006↩︎\nThe Coming Technological Singularity: How to Survive in the Post-Human Era↩︎"
+  },
+  {
+    "objectID": "01 Introduction/03 Turing Test/index.html",
+    "href": "01 Introduction/03 Turing Test/index.html",
+    "title": "The Turing Test",
+    "section": "",
+    "text": "In 1950, Alan Turing published a paper entitled Computing Machinery and Intelligence in which he described a test that he believed could be used to measure progress towards creating intelligent machines.\n\n\n\nAlan Turing - 1951\n\n\nThe goal of the Turing test, as it has come to be known, is to determine whether a machine acts in an intelligent manner.\nIn one version of the test, a human interrogator enters into a conversation with an entity (which may either be another human or a machine) via a computer terminal. The human and the entity are not allowed to see one another or communicate in any way, other than by typed messages. The goal of the human interrogator is to determine whether he or she is, in fact, communicating with another human or with a machine.\nIf the human cannot reliably determine the difference between the two, we conclude that the machine is exhibiting intelligent behavior.\nTest yourself with Human or Not?, a game that mimics the Turing Test."
   }
 ]
