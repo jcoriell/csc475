@@ -8,6 +8,30 @@ website:
     contents:
       - href: index.qmd
         text: Home
+      - text: Introduction
+        contents:
+          - text: The Singularity
+            href: "01 Introduction/01 The Singularity/" 
+          - text: Moore's Law
+            href: "01 Introduction/02 Moore's Law/" 
+          - text: Turing Test
+            href: "01 Introduction/03 Turing Test/" 
+          - text: Kurzweil's Law
+            href: "01 Introduction/04 Kurzweil's Law/" 
+          - text: Kurzweil's Estimates
+            href: "01 Introduction/05 Kurzweil's Estimates/" 
+
+      - text: Foundations
+        contents:
+          - text: Terms and Research Topics
+            href: "02 Foundations/01 Terms and Research Topics/" 
+          - text: Fictional AI
+            href: "02 Foundations/02 Fictional AI/" 
+          - text: LLM Capabilities
+            href: "02 Foundations/03 LLM Capabilities/" 
+          - text: Alignment
+            href: "02 Foundations/04 Alignment/" 
+
       - text: "Assignments"
         contents:
           - text: Othello
@@ -40,6 +64,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    link-external-newwindow: true
 
 
 

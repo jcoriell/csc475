@@ -1,0 +1,35 @@
+---
+title: Fictional AI
+---
+
+## HAL - 2001: A Space Odyssey
+
+One of the best examples of an AGI in fiction is the HAL 9000 Computer from the 1968 movie “2001: A Space Odyssey” by Stanley Kubrick and Arthur C. Clarke [sci-fi writer, scientist, first person to realize the significance of geosynchronous orbit] 
+
+
+<iframe 
+    width="100%" height=500 
+    src="https://www.youtube.com/embed/c6CzDV2mJCM?si=1k8OZ7XKAaEmxgGN" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+
+
+## Knowledge Navigator - Apple
+
+Another prescient depiction of AI/AGI was released by Apple Computer in 1987 – set  approximately 25 years in the future: circa 2010.  Predicted innovations in this six minute video include: portable “laptop” computers with flat-screen touch-sensitive color displays, wireless networking, a version of the internet, video conferencing, small solid-state storage devices.  And a “Knowledge Navigator”...
+
+
+<iframe 
+    width="100%" height=500 
+    src="https://www.youtube.com/embed/zmU-3QpyA0w?si=KLqNCqRZou8fAij4" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen
+>
+</iframe>
+
+

@@ -1,0 +1,30 @@
+---
+title: LLM Capabilities
+---
+
+Large Languae Models, or LLMS, are neural networks trained on vast amounts of human generated text. Most are based on the transformer architecture. Technically,these models are trained to do one thing: predict the next token, the next word, in a string of text.
+
+LLMs are like the “autocomplete” feature on your phone when you are texting – only orders of magnitude more capable. No one expected these models to learn to solve the exceptionally wide range of problems they now excel at. It appears that learning to accurately predict the next word or symbol in a text string requires the system to “learn” all sorts of things.
+
+
+## Prounoun Disabiguation Problem
+
+## Appearace of Common Sense Knowledge
+
+## Answering Theory of Mind Questions
+
+## Summarize Documents
+
+## Write Poems
+
+## Generate Code
+
+## Converse at Near Human Level
+
+## Solve Math problems
+
+## Score at/near "Best Human Level" on Standardized Tests 
+
+## Consume Multimodal Content 
+
+## Upcoming Models

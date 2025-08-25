@@ -1,0 +1,43 @@
+---
+title: Terms and Research Topics
+---
+
+## Terms
+
+**Artificial Intelligence (AI)** - a branch of computer science that has as its goal the construction of a general-purpose intelligence – of constructing machines that are capable of doing all of the things which, at the present time, people are better (paraphrased from Elaine Rich and Kevin Knight). The term “AI” is now generally used when talking about programs that achieve, or attempt to achieve, human-level performance in a very narrow problem domain (e.g., playing a particular game such as chess, or speech synthesis, or image recognition).  
+
+
+**Artificial General Intelligence (AGI)** - either:
+
+1. Programs that achieve, or attempt to achieve, human-level performance across many different problem domains.  By this definition Large Language Models (LLMs) may be thought of as attempting AGI.  [This is the AGI definition I use.]
+
+2. Programs that surpass human-level performance across many (if not all) problem domains. No existing program meet this definition. [Your professor tends to use the term “Artificial Superintelligent” or ASI when discussing such programs.]
+
+
+
+## Various Research Topics 
+
+
+- Computer Vision - enabling computers to see and recognize objects in the real world. For example, recognize humans from multiple angles with various lighting conditions; recognize individual humans despite different clothes, hairstyles, facial hair, etc.; recognize common non-human objects (e.g., cats, cars, tables, chairs, traffic signs); recognize artwork and the 2-D representations of the 3-D objects depicted therein. 
+
+- Converse fluently in human languages, such as English
+    - ASR (Automated Speech Recognition) – converting verbal speech into written text 
+    - TTS (Text to Speech Generation) – converting written text into verbal speech
+    - NLU (Natural Language Understanding) – “understanding” the topic of conversation
+
+- Natural Language Translation – translate between different human languages
+    - Written and spoken
+    - Real-time and off-line
+
+- Game playing
+    - Strategy games – Checkers, Chess, Go
+    - Knowledge / word games – Jeopardy!
+
+- Plan and reason the way people do
+    - Problem solving
+    - Planning
+    - Learning
+
+- Display creativity, curiosity, and discover new knowledge
+
+- Drive a car
