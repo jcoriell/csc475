@@ -178,11 +178,11 @@
     "text": "Large Languae Models, or LLMS, are neural networks trained on vast amounts of human generated text. Most are based on the transformer architecture. Technically,these models are trained to do one thing: predict the next token, the next word, in a string of text.\nLLMs are like the “autocomplete” feature on your phone when you are texting – only orders of magnitude more capable. No one expected these models to learn to solve the exceptionally wide range of problems they now excel at. It appears that learning to accurately predict the next word or symbol in a text string requires the system to “learn” all sorts of things."
   },
   {
-    "objectID": "02 Foundations/03 LLM Capabilities/index.html#prounoun-disabiguation-problem",
-    "href": "02 Foundations/03 LLM Capabilities/index.html#prounoun-disabiguation-problem",
+    "objectID": "02 Foundations/03 LLM Capabilities/index.html#prounoun-disambiguation-problem",
+    "href": "02 Foundations/03 LLM Capabilities/index.html#prounoun-disambiguation-problem",
     "title": "LLM Capabilities",
-    "section": "Prounoun Disabiguation Problem",
-    "text": "Prounoun Disabiguation Problem"
+    "section": "Prounoun Disambiguation Problem",
+    "text": "Prounoun Disambiguation Problem\nThe pronoun disambiguation problem in AI is about figuring out which entity a pronoun refers to in context. For example, in the sentence:\n“Alice told Mary that she should study harder.”\nDoes she refer to Alice or to Mary?\nHumans usually resolve this easily using context, world knowledge, and conversational cues. But for AI systems (like chatbots, translation models, or summarizers), this is tricky because:\n\nPronouns are often ambiguous.\nContext may span multiple sentences.\nResolving them correctly sometimes requires commonsense reasoning (e.g., “The car hit the tree, and it was destroyed”; it probably refers to the car, not the tree).\n\nThis is a well-known challenge in natural language understanding and ties into coreference resolution, where the AI needs to link all expressions (names, pronouns, descriptions) that point to the same entity.\n\n\n\n\n\n\nDoug Lenat on Pronoun Disambiguation\n\n\n\n\n\n\n\n\n\n\nHow does ChatGPT handle pronoun ambiguity?\nGiven the following story: “Mary saw the bicycle through the store window. She looked at it longingly and pressed her nose up against it.” What does the final “it” refer to?\nIn September 2023, ChatGPT 3.5 generated 20 answers in all and it produced the correct answer (store window) 12/20 times (60%) and a wrong answer (bicycle) 8/20 times (40%).\nIn August 2025, ChatGPT 5 generated 20 answers in all and produced the correct answer of window 13/20 times (65%), the incorrect answer of bicycle 5/20 times (25%), and argued for both window and bicycle 2/20 times (10%)."
   },
   {
     "objectID": "02 Foundations/03 LLM Capabilities/index.html#appearace-of-common-sense-knowledge",
@@ -276,6 +276,48 @@
     "text": "Various Research Topics\n\nComputer Vision - enabling computers to see and recognize objects in the real world. For example, recognize humans from multiple angles with various lighting conditions; recognize individual humans despite different clothes, hairstyles, facial hair, etc.; recognize common non-human objects (e.g., cats, cars, tables, chairs, traffic signs); recognize artwork and the 2-D representations of the 3-D objects depicted therein.\nConverse fluently in human languages, such as English\n\nASR (Automated Speech Recognition) – converting verbal speech into written text\nTTS (Text to Speech Generation) – converting written text into verbal speech\nNLU (Natural Language Understanding) – “understanding” the topic of conversation\n\nNatural Language Translation – translate between different human languages\n\nWritten and spoken\nReal-time and off-line\n\nGame playing\n\nStrategy games – Checkers, Chess, Go\nKnowledge / word games – Jeopardy!\n\nPlan and reason the way people do\n\nProblem solving\nPlanning\nLearning\n\nDisplay creativity, curiosity, and discover new knowledge\nDrive a car"
   },
   {
+    "objectID": "03 History/99 Overview of Notable People/index.html",
+    "href": "03 History/99 Overview of Notable People/index.html",
+    "title": "Overview of Notable People in AI",
+    "section": "",
+    "text": "John von Neuman\nVernor Vinge\nRay Kurzweil\nDoug Lenat\nGeoffrey Hinton\nSam Altman"
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/01 Installing Prolog.html",
+    "href": "07 Logic/03 Prolog/01 Installing Prolog.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
+    "href": "07 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
+  },
+  {
+    "objectID": "06 Searching/01 A Game as a Search Space.html",
+    "href": "06 Searching/01 A Game as a Search Space.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "G\n\n\n\nA\n\nA\n\n\n\nB\n\nB\n\n\n\nA-&gt;B\n\n\n\n\n\nC\n\nC\n\n\n\nA-&gt;C\n\n\n\n\n\nD\n\nD\n\n\n\nA-&gt;D\n\n\n\n\n\nE\n\nE\n\n\n\nB-&gt;E\n\n\n\n\n\nF\n\nF\n\n\n\nB-&gt;F\n\n\n\n\n\nC-&gt;D\n\n\n\n\n\nG\n\nG\n\n\n\nC-&gt;G\n\n\n\n\n\nH\n\nH\n\n\n\nD-&gt;H\n\n\n\n\n\nI\n\nI\n\n\n\nD-&gt;I\n\n\n\n\n\nJ\n\nJ\n\n\n\nG-&gt;J\n\n\n\n\n\nM\n\nM\n\n\n\nJ-&gt;M\n\n\n\n\n\nK\n\nK\n\n\n\nI-&gt;K\n\n\n\n\n\nL\n\nL\n\n\n\nI-&gt;L\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A((A))--&gt;B((B))\n    A--&gt;C((C))\n    A--&gt;D((D))\n    B--&gt;E((E))\n    B--&gt;F((F))\n    C--&gt;G((G))\n    C--&gt;D\n    D--&gt;H((H))\n    D--&gt;I((I))\n    G--&gt;J((J))\n    J--&gt;M((M))\n    I--&gt;K((K))\n    I--&gt;L((L))\n\n    classDef commonStyle fill:#f9f,stroke:#333,stroke-width:2px;\n    class A,B commonStyle;"
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/03 Making Queries.html",
+    "href": "07 Logic/03 Prolog/03 Making Queries.html",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
+  },
+  {
+    "objectID": "07 Logic/03 Prolog/03 Making Queries.html#first-program",
+    "href": "07 Logic/03 Prolog/03 Making Queries.html#first-program",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
+  },
+  {
     "objectID": "07 Logic/03 Prolog/02 First Program.html",
     "href": "07 Logic/03 Prolog/02 First Program.html",
     "title": "First Program",
@@ -304,41 +346,6 @@
     "text": "Full Program\nCombining the various pieces of code from above, we arrive at our final program. The next file will discuss how to make queries on this program.\nman(jim).       % jim is a man\nwoman(pam).     % pam is a woman\nwoman(cecelia). % cecelia is a woman\nman(phillip).   % phillip is a \n\nparent(jim, cecelia).   % jim is a parent of cecelia\nparent(pam, cecelia).   % pam is a parent of cecelia\nparent(jim, phillip).   % jim is a parent of phillip\nparent(pam, phillip).   % pam is a parent of phillip\n\n% declaring rules\nmom(X,Y) :- parent(X, Y), woman(X).  % X is a mom of Y if X is a parent of Y and X is a woman"
   },
   {
-    "objectID": "07 Logic/03 Prolog/03 Making Queries.html",
-    "href": "07 Logic/03 Prolog/03 Making Queries.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/03 Making Queries.html#first-program",
-    "href": "07 Logic/03 Prolog/03 Making Queries.html#first-program",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Create a file named family.pl\nIn that file, place the following code.\n% declaring facts\n% you can read the next line as \"tom is the parent of bob\"\nparent(tom, bob).  % these arguments begin with lowercase letters\nparent(pam, bob).\nparent(bob, sam).\n\n% declaring rules\n% You can read this rule as \"X is the grandparent of Y if X is the parent of Z and Z is the parent of Y\ngrandparent(X,Y) :- parent(X, Z), parent(Z, Y).  % Variables begin with capital letters\nNotice that tom and bob start with lowercase letters. All non-numeric constants start with a lowercase letter.\nNotice that X and Y start with capital letters. Variables always begin with an uppercase letter.\nIn your terminal, run swipl or gprolog depending on if you installed SWI Prolog or GNU Prolog. If successful, a prompt that looks like the following will appear:\n?- \nLoad in the family.pl file by typing the following:\n?- [family].\nNow you can ask it a question such as whether or not tom is a grandparent of sam.\n?- grandparent(tom, sam).\nIf you want to ask Who is a grandparent of sam? you can use a variable in the prompt. Note that in the following prompt, X is capitalized.\n?- grandparent(X, sam).\nX = tom\nIf you wanted to know if sam has more granparents, you can use a semicolon after each answer. It will respond with false once all of the options have been exhausted.\n?- grandparent(X, sam).\nX = tom ;\nX = pam ;\nfalse.\nIf you wanted to ask, To whom is tom the grandparent of? you can use a variable as the second argument.\n?- grandparent(tom, X)."
-  },
-  {
-    "objectID": "06 Searching/01 A Game as a Search Space.html",
-    "href": "06 Searching/01 A Game as a Search Space.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "G\n\n\n\nA\n\nA\n\n\n\nB\n\nB\n\n\n\nA-&gt;B\n\n\n\n\n\nC\n\nC\n\n\n\nA-&gt;C\n\n\n\n\n\nD\n\nD\n\n\n\nA-&gt;D\n\n\n\n\n\nE\n\nE\n\n\n\nB-&gt;E\n\n\n\n\n\nF\n\nF\n\n\n\nB-&gt;F\n\n\n\n\n\nC-&gt;D\n\n\n\n\n\nG\n\nG\n\n\n\nC-&gt;G\n\n\n\n\n\nH\n\nH\n\n\n\nD-&gt;H\n\n\n\n\n\nI\n\nI\n\n\n\nD-&gt;I\n\n\n\n\n\nJ\n\nJ\n\n\n\nG-&gt;J\n\n\n\n\n\nM\n\nM\n\n\n\nJ-&gt;M\n\n\n\n\n\nK\n\nK\n\n\n\nI-&gt;K\n\n\n\n\n\nL\n\nL\n\n\n\nI-&gt;L\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngraph TB\n    A((A))--&gt;B((B))\n    A--&gt;C((C))\n    A--&gt;D((D))\n    B--&gt;E((E))\n    B--&gt;F((F))\n    C--&gt;G((G))\n    C--&gt;D\n    D--&gt;H((H))\n    D--&gt;I((I))\n    G--&gt;J((J))\n    J--&gt;M((M))\n    I--&gt;K((K))\n    I--&gt;L((L))\n\n    classDef commonStyle fill:#f9f,stroke:#333,stroke-width:2px;\n    class A,B commonStyle;"
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/01 Installing Prolog.html",
-    "href": "07 Logic/03 Prolog/01 Installing Prolog.html",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
-    "objectID": "07 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
-    "href": "07 Logic/03 Prolog/01 Installing Prolog.html#download-and-install-prolog",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "",
-    "text": "Download from either of these locations.\nSWI Prolog\nGNU Prolog\n\n\n\nFor convenience if you are using homebrew on a mac\nbrew install swi-prolog\nbrew install gnu-prolog\nIf you don’t have homebrew installed, you can install it using this command\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\""
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "CSC 475 Artificial Intelligence",
@@ -359,11 +366,11 @@
     ]
   },
   {
-    "objectID": "index.html#schedule",
-    "href": "index.html#schedule",
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
     "title": "CSC 475 Artificial Intelligence",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\n\n\n\nDate\nDay\nTopic/Notes\n\n\n\n\nSept 5\nFriday\nAdministrivia; Are We Racing Headlong into a Technological Singularity?\n\n\nSept 8\nMonday\nOverview, Implications, History, Impact, and Potential (1/6); Assign 1\n\n\nSept 10\nWednesday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 12\nFriday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 15\nMonday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 17\nWednesday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 19\nFriday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 22\nMonday\nMachine Learning: Perceptrons; Assignment 1 Due\n\n\nSept 24\nWednesday\nMachine Learning: Perceptrons\n\n\nSept 26\nFriday\nMachine Learning: Perceptrons; Example perceptron in Excel\n\n\nSept 29\nMonday\nMachine Learning: Multi-Layer Networks\n\n\nOct 1\nWednesday\nMachine Learning: Multi-Layer Networks\n\n\nOct 3\nFriday\nMachine Learning: Multi-Layer Networks; Example network in Excel; ML Program Assigned\n\n\nOct 6\nMonday\nMachine Learning: Multi-Layer Networks\n\n\nOct 8\nWednesday\nMachine Learning: Multi-Layer Networks\n\n\nOct 10\nFriday\nMachine Learning: Multi-Layer Networks\n\n\nOct 13\nMonday\nMachine Learning: Multi-Layer Networks – ML Prog - Part 1 Due\n\n\nOct 15\nWednesday\nMachine Learning: Multi-Layer Networks\n\n\nOct 17\nFriday\nExam #1\n\n\nOct 20\nMonday\nSearch Strategies\n\n\nOct 21\nTuesday\nML Program – Part 2 Due; One-on-one student meetings begin\n\n\nOct 22\nWednesday\nSearch Strategies\n\n\nOct 24\nFriday\nSearch Strategies; Drop date!\n\n\nOct 27\nMonday\nSearch Strategies; Classical AI Program assigned\n\n\nOct 29\nWednesday\nSearch Strategies\n\n\nOct 31\nFriday\nSearch Strategies\n\n\nNov 3\nMonday\nFormal Logic\n\n\nNov 5\nWednesday\nFormal Logic\n\n\nNov 7\nFriday\nFormal Logic\n\n\nNov 10\nMonday\nClassical AI Program Due; One-on-One meetings\n\n\nNov 12\nWednesday\nExam #2; Last Day of Classes",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSubject to Change↩︎",
     "crumbs": [
       "Home"
     ]
@@ -465,32 +472,5 @@
     "title": "The Turing Test",
     "section": "",
     "text": "In 1950, Alan Turing published a paper entitled Computing Machinery and Intelligence in which he described a test that he believed could be used to measure progress towards creating intelligent machines.\n\n\n\nAlan Turing - 1951\n\n\nThe goal of the Turing test, as it has come to be known, is to determine whether a machine acts in an intelligent manner.\nIn one version of the test, a human interrogator enters into a conversation with an entity (which may either be another human or a machine) via a computer terminal. The human and the entity are not allowed to see one another or communicate in any way, other than by typed messages. The goal of the human interrogator is to determine whether he or she is, in fact, communicating with another human or with a machine.\nIf the human cannot reliably determine the difference between the two, we conclude that the machine is exhibiting intelligent behavior.\nTest yourself with Human or Not?, a game that mimics the Turing Test."
-  },
-  {
-    "objectID": "index.html#schedule-1",
-    "href": "index.html#schedule-1",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "Schedule 1",
-    "text": "Schedule 1\n\n\n\n\n\n\n\n\nDate\nDay\nTopic/Notes\n\n\n\n\nSept 5\nFriday\nAdministrivia; Are We Racing Headlong into a Technological Singularity?\n\n\nSept 8\nMonday\nOverview, Implications, History, Impact, and Potential (1/6); Assign 1\n\n\nSept 10\nWednesday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 12\nFriday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 15\nMonday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 17\nWednesday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 19\nFriday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 22\nMonday\nMachine Learning: Perceptrons; Assignment 1 Due\n\n\nSept 24\nWednesday\nMachine Learning: Perceptrons\n\n\nSept 26\nFriday\nMachine Learning: Perceptrons; Example perceptron in Excel\n\n\nSept 29\nMonday\nMachine Learning: Multi-Layer Networks\n\n\nOct 1\nWednesday\nMachine Learning: Multi-Layer Networks\n\n\nOct 3\nFriday\nMachine Learning: Multi-Layer Networks; Example network in Excel; ML Program Assigned\n\n\nOct 6\nMonday\nMachine Learning: Multi-Layer Networks\n\n\nOct 8\nWednesday\nMachine Learning: Multi-Layer Networks\n\n\nOct 10\nFriday\nMachine Learning: Multi-Layer Networks\n\n\nOct 13\nMonday\nMachine Learning: Multi-Layer Networks; ML Program - Part 1 Due\n\n\nOct 15\nWednesday\nMachine Learning: Multi-Layer Networks\n\n\nOct 17\nFriday\nExam #1\n\n\nOct 20\nMonday\nSearch Strategies\n\n\nOct 21\nTuesday\nML Program – Part 2 Due\n\n\nOct 22\nWednesday\nSearch Strategies\n\n\nOct 24\nFriday\nSearch Strategies; Drop date!\n\n\nOct 27\nMonday\nSearch Strategies; Classical AI Program assigned\n\n\nOct 29\nWednesday\nSearch Strategies\n\n\nOct 31\nFriday\nSearch Strategies\n\n\nNov 3\nMonday\nFormal Logic\n\n\nNov 5\nWednesday\nFormal Logic\n\n\nNov 7\nFriday\nFormal Logic\n\n\nNov 10\nMonday\nClassical AI Program Due; One-on-One meetings\n\n\nNov 12\nWednesday\nExam #2; Last Day of Classes",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#footnotes",
-    "href": "index.html#footnotes",
-    "title": "CSC 475 Artificial Intelligence",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nSubject to Change↩︎",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "02 Foundations/03 LLM Capabilities/index.html#prounoun-disambiguation-problem",
-    "href": "02 Foundations/03 LLM Capabilities/index.html#prounoun-disambiguation-problem",
-    "title": "LLM Capabilities",
-    "section": "Prounoun Disambiguation Problem",
-    "text": "Prounoun Disambiguation Problem\nThe pronoun disambiguation problem in AI is about figuring out which entity a pronoun refers to in context. For example, in the sentence:\n“Alice told Mary that she should study harder.”\nDoes she refer to Alice or to Mary?\nHumans usually resolve this easily using context, world knowledge, and conversational cues. But for AI systems (like chatbots, translation models, or summarizers), this is tricky because:\n\nPronouns are often ambiguous.\nContext may span multiple sentences.\nResolving them correctly sometimes requires commonsense reasoning (e.g., “The car hit the tree, and it was destroyed”; it probably refers to the car, not the tree).\n\nThis is a well-known challenge in natural language understanding and ties into coreference resolution, where the AI needs to link all expressions (names, pronouns, descriptions) that point to the same entity.\n\n\n\n\n\n\nDoug Lenat on Pronoun Disambiguation\n\n\n\n\n\n\n\n\n\n\nHow does ChatGPT handle pronoun ambiguity?\nGiven the following story: “Mary saw the bicycle through the store window. She looked at it longingly and pressed her nose up against it.” What does the final “it” refer to?\nIn September 2023, ChatGPT 3.5 generated 20 answers in all and it produced the correct answer (store window) 12/20 times (60%) and a wrong answer (bicycle) 8/20 times (40%).\nIn August 2025, ChatGPT 5 generated 20 answers in all and produced the correct answer of window 13/20 times (65%), the incorrect answer of bicycle 5/20 times (25%), and argued for both window and bicycle 2/20 times (10%)."
   }
 ]
