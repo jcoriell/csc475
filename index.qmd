@@ -6,10 +6,12 @@ title: "CSC 475 Artificial Intelligence"
 
 The design and implementation of artificially intelligent programs.  Topics include game playing, heuristic search, logic, knowledge representation, and reasoning strategies.  Social implications are also discussed. More specifically, approximately 2 weeks covering an overview, history, impact, implications, and potential of AI; approximately 3.5 weeks covering machine learning: perceptrons, multi-layer networks, and deep learning; amd approximately 3.5 weeks discussing classical AI: Game Playing and Search; First Order Logic, and Inference.
 
+For the full syllabus, see Canvas.
 
 
-::: {.table}
-## Schedule
+
+::: {.callout}
+## Schedule [^1]
 | Date      | Day        | Topic/Notes                                                                 |
 |-----------|------------|------------------------------------------------------------------------------|
 | Sept 5    | Friday     | Administrivia; Are We Racing Headlong into a Technological Singularity?      |
@@ -19,7 +21,7 @@ The design and implementation of artificially intelligent programs.  Topics incl
 | Sept 15   | Monday     | Overview, Implications, History, Impact, and Potential of AI                 |
 | Sept 17   | Wednesday  | Overview, Implications, History, Impact, and Potential of AI                 |
 | Sept 19   | Friday     | Overview, Implications, History, Impact, and Potential of AI                 |
-| Sept 22   | Monday     | Machine Learning: Perceptrons; Assignment 1 Due                              |
+| Sept 22   | Monday     | Machine Learning: Perceptrons; <span style="color: green">Assignment 1 Due</span>                              |
 | Sept 24   | Wednesday  | Machine Learning: Perceptrons                                                |
 | Sept 26   | Friday     | Machine Learning: Perceptrons; Example perceptron in Excel                   |
 | Sept 29   | Monday     | Machine Learning: Multi-Layer Networks                                       |
@@ -28,11 +30,11 @@ The design and implementation of artificially intelligent programs.  Topics incl
 | Oct 6     | Monday     | Machine Learning: Multi-Layer Networks                                       |
 | Oct 8     | Wednesday  | Machine Learning: Multi-Layer Networks                                       |
 | Oct 10    | Friday     | Machine Learning: Multi-Layer Networks                                       |
-| Oct 13    | Monday     | Machine Learning: Multi-Layer Networks – ML Prog - Part 1 Due                |
+| Oct 13    | Monday     | Machine Learning: Multi-Layer Networks; <span style="color: green">ML Program - Part 1 Due</span>                |
 | Oct 15    | Wednesday  | Machine Learning: Multi-Layer Networks                                       |
-| Oct 17    | Friday     | Exam #1                                                                      |
+|<span style="color: red">Oct 17</span>    | <span style="color: red">Friday</span>     | <span style="color: red">Exam #1</span>                                                                      |
 | Oct 20    | Monday     | Search Strategies                                                            |
-| Oct 21    | Tuesday    | ML Program – Part 2 Due; One-on-one student meetings begin                   |
+| Oct 21    | Tuesday    | <span style="color: green">ML Program – Part 2 Due</span>                    |
 | Oct 22    | Wednesday  | Search Strategies                                                            |
 | Oct 24    | Friday     | Search Strategies; Drop date!                                                |
 | Oct 27    | Monday     | Search Strategies; Classical AI Program assigned                             |
@@ -41,8 +43,8 @@ The design and implementation of artificially intelligent programs.  Topics incl
 | Nov 3     | Monday     | Formal Logic                                                                 |
 | Nov 5     | Wednesday  | Formal Logic                                                                 |
 | Nov 7     | Friday     | Formal Logic                                                                 |
-| Nov 10    | Monday     | Classical AI Program Due; One-on-One meetings                                |
-| Nov 12    | Wednesday  | Exam #2; Last Day of Classes                                                 |
+| Nov 10    | Monday     |<span style="color: green">Classical AI Program Due</span>; One-on-One meetings                                |
+|<span style="color: red">Nov 12</span>    | <span style="color: red">Wednesday</span>  | <span style="color: red">Exam #2; Last Day of Classes</span>                                                 |
 :::
 
 

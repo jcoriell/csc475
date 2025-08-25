@@ -1,0 +1,15 @@
+---
+title: Overview of Notable People in AI
+---
+
+John von Neuman
+
+Vernor Vinge
+
+Ray Kurzweil
+
+Doug Lenat
+
+Geoffrey Hinton
+
+Sam Altman

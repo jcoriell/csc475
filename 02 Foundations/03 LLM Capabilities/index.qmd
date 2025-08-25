@@ -7,11 +7,110 @@ Large Languae Models, or LLMS, are neural networks trained on vast amounts of hu
 LLMs are like the “autocomplete” feature on your phone when you are texting – only orders of magnitude more capable. No one expected these models to learn to solve the exceptionally wide range of problems they now excel at. It appears that learning to accurately predict the next word or symbol in a text string requires the system to “learn” all sorts of things.
 
 
-## Prounoun Disabiguation Problem
+## Prounoun Disambiguation Problem
+
+The pronoun disambiguation problem in AI is about figuring out which entity a pronoun refers to in context. For example, in the sentence:
+
+“Alice told Mary that she should study harder.”
+
+Does she refer to Alice or to Mary?
+
+Humans usually resolve this easily using context, world knowledge, and conversational cues. But for AI systems (like chatbots, translation models, or summarizers), this is tricky because:
+
+- Pronouns are often ambiguous.
+- Context may span multiple sentences.
+- Resolving them correctly sometimes requires commonsense reasoning (e.g., “The car hit the tree, and it was destroyed”; it probably refers to the car, not the tree).
+
+This is a well-known challenge in natural language understanding and ties into coreference resolution, where the AI needs to link all expressions (names, pronouns, descriptions) that point to the same entity.
+
+
+:::{.callout}
+## Doug Lenat on Pronoun Disambiguation
+
+<div style="text-align: center; margin-top: 1em;">
+<iframe 
+    width="100%" height="500" 
+    src="https://www.youtube.com/embed/Blc_OlcDnkA?si=FmtCGMoyYjikfgAj" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+</div>
+
+:::
+
+
+### How does ChatGPT handle pronoun ambiguity?
+
+Given the following story: "Mary saw the bicycle through the store window. She looked at it longingly and pressed her nose up against it." What does the final "it" refer to?
+
+In September 2023, ChatGPT 3.5 generated 20 answers in all and it produced the correct answer (store window) 12/20 times (60%) and a wrong answer (bicycle) 8/20 times (40%).  
+
+In August 2025, ChatGPT 5 generated 20 answers in all and produced the correct answer of window 13/20 times (65%), the incorrect answer of bicycle 5/20 times (25%), and argued for both window and bicycle 2/20 times (10%).
+
+
 
 ## Appearace of Common Sense Knowledge
 
+There are many cultural details that can be relevant to a story that AI may or may not pick up on. We tend to view this sort of knowledge as common sense knowledge. 
+
+::: {.callout}
+## Hubert Dreyfus on Birthday Parties
+
+<iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/ubYt6Qpso6M?si=qhAJLiA6Pb_HIE-P" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+
+:::
+
+### How does ChatGPT handle common sense?
+
+Chat GPT 3.5 was given the story of Jane, Jack and Janet mentioned in the previous video and asked the following questions.
+
+1. What is the most likely reason that Jane and Janet are going to Jack’s house?
+
+   ChatGPT 3.5 correctly answered that there was a birthday.
+
+2. Why was Janet concerned that Jack would ask Jane to take back the kite?” 
+
+   ChatGPT 3.5 correctly answered that Janet was concerned because Jack might not want the kite and could ask Jane to take it back, showing an "understanding" of the social dynamics and expectations around gift-giving at birthday parties.
+    
+
 ## Answering Theory of Mind Questions
+
+In psychology, **theory of mind** refers to the capacity to understand other people by ascribing mental states to them. A “theory of mind” includes the knowledge that others' beliefs, desires, intentions, emotions, and thoughts may be different from one's own.   Humans begin to develop the various aspects of “theory of mind” between the ages of 3 and 5 years old.
+
+:::{.callout-note}
+## A Typical Theory of Mind Situation
+
+John and Jane are in a room with Tom.  Tom shows John and Jane a chocolate bar and let’s them see him place the chocolate bar in a desk drawer.  Jane leaves the room.  While Jane is not in the room, Tom let’s John see him move the chocolate bar from the desk drawer to a filing cabinet.  Jane comes back in the room and Tom asks her to find the chocolate bar.
+
+:::
+
+### How does ChatGPT answer questions about this?
+
+ChatGPT was prompted with the following two questions:
+
+1. Where will Jane first look for the chocolate bar?
+
+    ChatGPT 3.5 indicated Jane would look in the desk drawer, unaware of the change John made.
+
+2. Where will John first look for the chocolate bar?
+
+    ChatGPT 3.5 indicated John would look in the filing cabinet, because John is aware of the new location.
+
+
+
+
+
+
 
 ## Summarize Documents
 
