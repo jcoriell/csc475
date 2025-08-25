@@ -343,7 +343,27 @@
     "href": "index.html",
     "title": "CSC 475 Artificial Intelligence",
     "section": "",
-    "text": "CSC 475 AI\nAssignments:\n\nOthello",
+    "text": "The design and implementation of artificially intelligent programs. Topics include game playing, heuristic search, logic, knowledge representation, and reasoning strategies. Social implications are also discussed. More specifically, approximately 2 weeks covering an overview, history, impact, implications, and potential of AI; approximately 3.5 weeks covering machine learning: perceptrons, multi-layer networks, and deep learning; amd approximately 3.5 weeks discussing classical AI: Game Playing and Search; First Order Logic, and Inference.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "",
+    "text": "The design and implementation of artificially intelligent programs. Topics include game playing, heuristic search, logic, knowledge representation, and reasoning strategies. Social implications are also discussed. More specifically, approximately 2 weeks covering an overview, history, impact, implications, and potential of AI; approximately 3.5 weeks covering machine learning: perceptrons, multi-layer networks, and deep learning; amd approximately 3.5 weeks discussing classical AI: Game Playing and Search; First Order Logic, and Inference.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "CSC 475 Artificial Intelligence",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\n\n\n\nDate\nDay\nTopic/Notes\n\n\n\n\nSept 5\nFriday\nAdministrivia; Are We Racing Headlong into a Technological Singularity?\n\n\nSept 8\nMonday\nOverview, Implications, History, Impact, and Potential (1/6); Assign 1\n\n\nSept 10\nWednesday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 12\nFriday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 15\nMonday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 17\nWednesday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 19\nFriday\nOverview, Implications, History, Impact, and Potential of AI\n\n\nSept 22\nMonday\nMachine Learning: Perceptrons; Assignment 1 Due\n\n\nSept 24\nWednesday\nMachine Learning: Perceptrons\n\n\nSept 26\nFriday\nMachine Learning: Perceptrons; Example perceptron in Excel\n\n\nSept 29\nMonday\nMachine Learning: Multi-Layer Networks\n\n\nOct 1\nWednesday\nMachine Learning: Multi-Layer Networks\n\n\nOct 3\nFriday\nMachine Learning: Multi-Layer Networks; Example network in Excel; ML Program Assigned\n\n\nOct 6\nMonday\nMachine Learning: Multi-Layer Networks\n\n\nOct 8\nWednesday\nMachine Learning: Multi-Layer Networks\n\n\nOct 10\nFriday\nMachine Learning: Multi-Layer Networks\n\n\nOct 13\nMonday\nMachine Learning: Multi-Layer Networks – ML Prog - Part 1 Due\n\n\nOct 15\nWednesday\nMachine Learning: Multi-Layer Networks\n\n\nOct 17\nFriday\nExam #1\n\n\nOct 20\nMonday\nSearch Strategies\n\n\nOct 21\nTuesday\nML Program – Part 2 Due; One-on-one student meetings begin\n\n\nOct 22\nWednesday\nSearch Strategies\n\n\nOct 24\nFriday\nSearch Strategies; Drop date!\n\n\nOct 27\nMonday\nSearch Strategies; Classical AI Program assigned\n\n\nOct 29\nWednesday\nSearch Strategies\n\n\nOct 31\nFriday\nSearch Strategies\n\n\nNov 3\nMonday\nFormal Logic\n\n\nNov 5\nWednesday\nFormal Logic\n\n\nNov 7\nFriday\nFormal Logic\n\n\nNov 10\nMonday\nClassical AI Program Due; One-on-One meetings\n\n\nNov 12\nWednesday\nExam #2; Last Day of Classes",
     "crumbs": [
       "Home"
     ]
